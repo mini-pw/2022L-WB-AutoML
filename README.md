@@ -81,7 +81,7 @@ Warszataty Badawcze składają się z:
     <td>10</td>
     <td>28-04</td>
     <td>Metody oceny szybkości optymalizacji,  anytime performance</td>
-    <td>Praca domowa 4 (6 pkt)</td>
+    <td>Praca domowa 3 (6 pkt)</td>
   </tr>
   <tr>
     <td>11</td>
