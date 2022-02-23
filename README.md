@@ -32,7 +32,7 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>2</td>
     <td>03-03</td>
-    <td>ML workflow - wstęp do modeli uczenia mszynowego, ewaluacja algorytmów
+    <td>ML workflow - wstęp do modeli uczenia maszynowego, ewaluacja algorytmów
 </td>
     <td>Praca domowa 1 (5 pkt)</td>
   </tr>
@@ -75,7 +75,7 @@ Warszataty Badawcze składają się z:
     <td>9</td>
     <td>21-04</td>
     <td>Meta-learning, ensembling modeli</td>
-    <td>Praca domowa 3 (6 pkt)</td>
+    <td>Kamień milowy 3 (6 pkt)</td>
   </tr>
   <tr>
     <td>10</td>
@@ -87,7 +87,7 @@ Warszataty Badawcze składają się z:
     <td>11</td>
     <td>05-05</td>
     <td>Konsultacje</td>
-    <td>Kamień milowy 3 (6 pkt)</td>
+    <td>Kamień milowy 4 (6 pkt)</td>
   </tr>
   <tr>
     <td>12</td>
