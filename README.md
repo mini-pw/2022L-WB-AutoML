@@ -69,7 +69,7 @@ Warszataty Badawcze składają się z:
     <td>8</td>
     <td>14-04</td>
     <td>Benchmarki</td>
-    <td>Kamień milowy 2 (12 pkt)</td>
+    <td>Kamień milowy 2 (10 pkt)</td>
   </tr>
   <tr>
     <td>9</td>
@@ -87,7 +87,7 @@ Warszataty Badawcze składają się z:
     <td>11</td>
     <td>05-05</td>
     <td>Konsultacje</td>
-    <td>Kamień milowy 4 (6 pkt)</td>
+    <td>Kamień milowy 4 (8 pkt)</td>
   </tr>
   <tr>
     <td>12</td>
