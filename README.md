@@ -34,7 +34,9 @@ Warszataty Badawcze składają się z:
     <td>03-03</td>
     <td>ML workflow - wstęp do modeli uczenia maszynowego, ewaluacja algorytmów
 </td>
-    <td>Praca domowa 1 (5 pkt)</td>
+    <td> 
+      <a href="https://github.com/MI2-Education/2022L-WB-AutoML/issues/1"> Praca domowa 1 (5 pkt) </a>
+   </td>
   </tr>
   <tr>
     <td>3</td>
