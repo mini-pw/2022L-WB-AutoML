@@ -9,7 +9,15 @@
 <tbody>
    <tr>
     <td>1</td>
-    <td>Zbadanie ramki danych(wymiary, zmienne), wybranie zmiennej objaśniającej i zmiennych objaśnianych, identyfikacja brakujących zmiennych, wybranie zmiennych, imputacja braków danych, encoding zmiennych kategorycznych, analiza eksploracyjna jednowymiarowa, analiza eksploracyjna wielowymiarowa
+    <td>
+      - zbadanie ramki danych(wymiary, typy zmiennych) <br>
+      - wybranie zmiennej objaśniającej i zmiennych objaśnianych <br>
+      - identyfikacja brakujących zmiennych <br>
+      - wybranie zmiennych (usunięcie zbędnych zmiennych) <br>
+      - imputacja braków danych <br>
+      - encoding zmiennych kategorycznych (one-hot encoding oraz label encoding) <br>
+      - analiza eksploracyjna jednowymiarowa (histogramy, barploty) <br>
+      - analiza eksploracyjna wielowymiarowa (scatterploty, tabele kontyngencji, boxploty) <br>
     <td>https://github.com/Janekkr/2022L-WB-AutoML/blob/main/homeworks/hw1/Kruszewski_Jan/raport_pd1.html
   </tr>
   </tbody>
