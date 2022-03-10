@@ -9,8 +9,8 @@
 <tbody>
    <tr>
     <td>1</td>
-    <td></td>
-    <td></td>
+    <td>Usunięcie niepotrzebnych kolumn o małej wariancji danych, zagregowanie obserwacji rzadkich, imputowanie brakujących zmiennych kategorycznych, enkodowane zmiennych kategorycznych w zależności od potrzeb ordinal enkoderem, one hot enkoderem, enkodowanie zmiennej celu label enkoderem</td>
+    <td>MarciniakPiotr/homework.ipynb</td>
   </tr>
   </tbody>
 </table>
