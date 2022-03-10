@@ -11,7 +11,7 @@
     <td>1</td>
     <td>identyfikacja danych i zmiennej objaśnianej</br>
         analiza danych kategorycznych</br>
-        usunięcie niepotrzebnych zmiennych, agregacja kategoirii i inputacja braków danych</br>
+        usunięcie niepotrzebnych zmiennych, agregacja kategorii i inputacja braków danych</br>
         label encoding</br>
         analiza danych numerycznych</br>
         usunięcie niepotrzebnych zmiennych</br>
