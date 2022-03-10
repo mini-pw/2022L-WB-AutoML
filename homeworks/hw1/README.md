@@ -11,6 +11,14 @@
     <td>1</td>
     <td></td>
     <td></td>
+    <td>
+      - Identyfikacja zmiennej objaśnianiej
+	    - Wartości brakujące - usunięcie niektórych kolumn lub dodanie kategorii
+	    - Zmniejszenie liczby niektórych kategorii
+	    - Encoding zmiennych kategorycznych
+	    - Analiza jedno- i dwuwymiarowa (kilka wykresów)
+     </td>
+    <td><a href="WitasMarcel/hw1.ipynb">link</td>
   </tr>
   </tbody>
 </table>
