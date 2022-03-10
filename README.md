@@ -42,7 +42,9 @@ Warszataty Badawcze składają się z:
     <td>3</td>
     <td>10-03</td>
     <td>Optymalizacja hiperparametrów</td>
-    <td>Praca domowa 2 (5 pkt)</td>
+    <td>
+      <a href="https://github.com/MI2-Education/2022L-WB-AutoML/issues/3">Praca domowa 2 (5 pkt)</a>
+    </td>
   </tr>
   <tr>
     <td>4</td>
