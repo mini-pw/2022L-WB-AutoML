@@ -9,8 +9,8 @@
 <tbody>
    <tr>
     <td>1</td>
-    <td></td>
-    <td></td>
+    <td>Wybranie zmiennej objaśniającej i zmiennych objaśnianych, transformacja niektórych zmiennych, usunięcie niepotrzebnych i wybrakowanych zmiennych, encoding zmiennych kategorycznych </td>
+    <td>TomczykMichal/homework1.ipnyb</td>
   </tr>
   </tbody>
 </table>
