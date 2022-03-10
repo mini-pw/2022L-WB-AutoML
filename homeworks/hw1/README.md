@@ -9,8 +9,7 @@
 <tbody>
    <tr>
     <td>1</td>
-    <td></td>
-    <td></td>
+    
     <td>
       - Identyfikacja zmiennej objaśnianiej
 	    - Wartości brakujące - usunięcie niektórych kolumn lub dodanie kategorii
