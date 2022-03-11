@@ -139,6 +139,18 @@
      </td>
     <td><a href="WitasMarcel/hw1.ipynb">link</td>
   </tr>
+  <tr>
+    <td>13</td>
+     <td>identyfikacja danych i zmiennej objaśnianej</br>
+     	Sprawdzenie typów danych i braków <br>
+        analiza danych kategorycznych</br>
+	Wartości brakujące - usunięcie niektórych kolumn lub dodanie kategorii</br>
+	analiza wielowymiarowa (macierz korelacji i pairploty)</br>
+        usunięcie niepotrzebnych zmiennych</br>
+	Przekształcenie zmiennych
+    </td>
+    <td><a href="KurowskiKacper/%5BWB2%5D_PD1_Kacper_Kurowski.ipynb"> link</td>
+  </tr>
   </tbody>
 </table>
 
