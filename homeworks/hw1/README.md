@@ -128,6 +128,17 @@
      </td>
     <td><a href="SiudalskiTomasz/PD1_Tomasz_Siudalski.ipynb">link</td>
   </tr>
+  <tr>
+  <td>12</td>
+      <td>
+      - Identyfikacja zmiennej objaśnianiej
+	    - Wartości brakujące - usunięcie niektórych kolumn lub dodanie kategorii
+	    - Zmniejszenie liczby niektórych kategorii
+	    - Encoding zmiennych kategorycznych
+	    - Analiza jedno- i dwuwymiarowa (kilka wykresów)
+     </td>
+    <td><a href="WitasMarcel/hw1.ipynb">link</td>
+  </tr>
   </tbody>
 </table>
 
