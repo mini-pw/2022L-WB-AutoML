@@ -35,7 +35,7 @@
     <td>https://github.com/michtom/2022L-WB-AutoML/blob/main/homeworks/hw1/TomczykMichal/homework1.ipynb</td>
   </tr>
   <tr>
-    <td>5<\td>
+    <td>5</td>
           <td>
       - zbadanie ramki danych(wymiary, typy zmiennych) <br>
       - wybranie zmiennej objaśniającej i zmiennych objaśnianych <br>
@@ -45,8 +45,8 @@
       - encoding zmiennych kategorycznych (one-hot encoding oraz label encoding) <br>
       - analiza eksploracyjna jednowymiarowa (histogramy, barploty) <br>
       - analiza eksploracyjna wielowymiarowa (scatterploty, tabele kontyngencji, boxploty) <br>
-            <\td>
-        <td>https://github.com/Janekkr/2022L-WB-AutoML/blob/main/homeworks/hw1/Kruszewski_Jan/raport_pd1.html<\td>
-    <\tr>
+            </td>
+        <td>https://github.com/Janekkr/2022L-WB-AutoML/blob/main/homeworks/hw1/Kruszewski_Jan/raport_pd1.html</td>
+    </tr>
   </tbody>
 </table>
