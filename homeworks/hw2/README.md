@@ -160,6 +160,17 @@
     <td align='center'>0.668</td>
     <td align='center'><a href="KrupinskiTomasz/KrupinskiTomasz.ipynb">link</td>
       </tr>
+  <td>13</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>ExtraTreesClassifier</td>
+    <td align='center'> n_estimators, criterion, min_samples_leaf, max_features</td>
+    <td align='center'>0.645</td>
+    <td align='center'> </td>
+    <td align='center'> </td>
+    <td align='center'> </td>
+    <td align='center'><a href="SiudalskiTomasz/PD2.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
