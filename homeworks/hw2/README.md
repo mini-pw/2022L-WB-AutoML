@@ -112,6 +112,18 @@
     <td align='center'>0.8743865410403371</td>
     <td align='center'><a href="KurowskiKacper/[WB2]_PD2_Kacper_Kurowski.ipynb">link</td>
       </tr>  
+     <tr>
+    <td>8</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'>n_estimators, criterion, min_samples_split, min_samples_leaf, bootstrap</td>
+    <td align='center'>0.67</td>
+    <td align='center'>0.6854</td>
+    <td align='center'>0.6858</td>
+    <td align='center'>0.6898</td>
+    <td align='center'><a href="BujakowskiHubert/hw2.html">link</td>
+      </tr>  
   </tbody>
 </table>
 
