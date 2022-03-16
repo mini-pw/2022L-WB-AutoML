@@ -99,7 +99,19 @@
     <td align='center'>0.7295</td>
     <td align='center'>0.7283</td>
     <td align='center'><a href="KomorowskiMichal/homework2.ipynb">link</td>
-      </tr>    
+      </tr> 
+    <tr>
+    <td>8</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>GradBoostClassifier</td>
+    <td align='center'>criterion, learning_rate, max_depth</td>
+    <td align='center'>0.8691564973776389</td>
+    <td align='center'>0.8744405506515862</td>
+    <td align='center'>0.87320370593767</td>
+    <td align='center'>0.8743865410403371</td>
+    <td align='center'><a href="KurowskiKacper/[WB2]_PD2_Kacper_Kurowski.ipynb">link</td>
+      </tr>  
   </tbody>
 </table>
 
