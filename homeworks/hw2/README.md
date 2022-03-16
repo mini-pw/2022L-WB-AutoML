@@ -1,4 +1,4 @@
-## Podsumowaniwe pracy domowej 2
+## Podsumowanie pracy domowej 2
 
 <table>
 <thead>
