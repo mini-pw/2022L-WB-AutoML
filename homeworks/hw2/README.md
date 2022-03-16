@@ -106,10 +106,10 @@
     <td align='center'>5</td>
     <td align='center'>GradientBoostingClassifier</td>
     <td align='center'>criterion, learning_rate, max_depth</td>
-    <td align='center'>0.8691564973776389</td>
-    <td align='center'>0.8744405506515862</td>
-    <td align='center'>0.87320370593767</td>
-    <td align='center'>0.8743865410403371</td>
+    <td align='center'>0.869</td>
+    <td align='center'>0.874</td>
+    <td align='center'>0.873</td>
+    <td align='center'>0.874</td>
     <td align='center'><a href="KurowskiKacper/[WB2]_PD2_Kacper_Kurowski.ipynb">link</td>
       </tr>  
      <tr>
