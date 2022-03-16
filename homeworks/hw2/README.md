@@ -40,6 +40,18 @@
     <td align='center'>0.683000773865825</td>
     <td align='center'><a href="RoguskiMikolaj/Untitled.ipynb">link</td>
       </tr>
+  <tr>
+    <td>3</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'> n_estimators, max_features, max_depth min_samples_split, min_samples_leaf, bootstrap</td>
+    <td align='center'>0.63</td>
+    <td align='center'>0.57</td>
+    <td align='center'>0.58</td>
+    <td align='center'>0.62</td>
+    <td align='center'></td>
+      </tr>
   </tbody>
 </table>
 
