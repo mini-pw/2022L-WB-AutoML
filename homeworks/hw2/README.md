@@ -87,7 +87,19 @@
     <td align='center'>0.6953</td>
     <td align='center'>0.6955</td>
     <td align='center'><a href="MarciniakPiotr/homework.ipynb">link</td>
-      </tr>  
+      </tr>
+      <tr>
+    <td>7</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>LGBMClassifier</td>
+    <td align='center'>max_depth, min_data_in_leaf, n_estimators, num_leaves</td>
+    <td align='center'>0.7287</td>
+    <td align='center'>-</td>
+    <td align='center'>0.7295</td>
+    <td align='center'>0.7283</td>
+    <td align='center'><a href="KomorowskiMichal/homework2.ipynb">link</td>
+      </tr>    
   </tbody>
 </table>
 
