@@ -104,7 +104,7 @@
     <td>8</td>
     <td align='center'>---</td>
     <td align='center'>5</td>
-    <td align='center'>GradBoostClassifier</td>
+    <td align='center'>GradientBoostingClassifier</td>
     <td align='center'>criterion, learning_rate, max_depth</td>
     <td align='center'>0.8691564973776389</td>
     <td align='center'>0.8744405506515862</td>
