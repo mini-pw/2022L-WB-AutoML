@@ -64,6 +64,18 @@
     <td align='center'>0.6887</td>
     <td align='center'><a href="https://github.com/MI2-Education/2022L-WB-AutoML/tree/main/homeworks/hw2/Grzegorz_Zbrze%C5%BCny">link</td>
       </tr>
+  <tr>
+    <td>3</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>XGBClassifier</td>
+    <td align='center'> gamma, learning_rate, max_depth, n_estimators, reg_alpha, reg_lambda</td>
+    <td align='center'>0.6913</td>
+    <td align='center'>0.6940</td>
+    <td align='center'>0.6963</td>
+    <td align='center'>0.6957</td>
+    <td align='center'><a href="GałkowskiMikołaj/hw2_Gałkowski">link</td>
+      </tr>  
   </tbody>
 </table>
 
