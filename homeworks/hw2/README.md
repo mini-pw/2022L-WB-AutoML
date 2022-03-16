@@ -53,7 +53,7 @@
     <td align='center'><a href="KruszewskiJan/hw2.html">link</td>
       </tr>
   <tr>
-    <td>3</td>
+    <td>4</td>
     <td align='center'>---</td>
     <td align='center'>3</td>
     <td align='center'>RandomForestClassifier</td>
@@ -65,7 +65,7 @@
     <td align='center'><a href="https://github.com/MI2-Education/2022L-WB-AutoML/tree/main/homeworks/hw2/Grzegorz_Zbrze%C5%BCny">link</td>
       </tr>
   <tr>
-    <td>3</td>
+    <td>5</td>
     <td align='center'>---</td>
     <td align='center'>3</td>
     <td align='center'>XGBClassifier</td>
@@ -75,6 +75,18 @@
     <td align='center'>0.6963</td>
     <td align='center'>0.6957</td>
     <td align='center'><a href="GałkowskiMikołaj/hw2_Gałkowski">link</td>
+      </tr> 
+      <tr>
+    <td>6</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>XGBClassifier</td>
+    <td align='center'>gamma, learning_rate, max_depth, min_child_weight, subsample</td>
+    <td align='center'>0.6910</td>
+    <td align='center'>0.6936</td>
+    <td align='center'>0.6953</td>
+    <td align='center'>0.6955</td>
+    <td align='center'><a href="MarciniakPiotr/homework.ipynb">link</td>
       </tr>  
   </tbody>
 </table>
