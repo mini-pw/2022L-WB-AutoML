@@ -28,6 +28,18 @@
     <td align='center'>0.850817036655483</td>
     <td align='center'><a href="TomaszewskiŁukasz/WB_PD_2.ipynb">link</td>
       </tr>
+  <tr>
+    <td>2</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'> n_estimators, criterion, max_features, max_depth min_samples_split</td>
+    <td align='center'>0.6600572212993829</td>
+    <td align='center'>0.6515612275157766</td>
+    <td align='center'>0.6137562012818499</td>
+    <td align='center'>0.683000773865825</td>
+    <td align='center'><a href="RoguskiMikolaj/Untitled.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
