@@ -125,7 +125,7 @@
     <td align='center'><a href="BujakowskiHubert/hw2.html">link</td>
       </tr>  
   <tr>
-    <td>5</td>
+    <td>9</td>
     <td align='center'>---</td>
     <td align='center'>3</td>
     <td align='center'>ExtraTreesClassifier</td>
