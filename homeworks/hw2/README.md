@@ -136,6 +136,18 @@
     <td align='center'>0.6959</td>
     <td align='center'><a href="WitasMarcel/hw2.ipynb">link</td>
       </tr>
+  <tr>
+    <td>11</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>GradientBoostingClassifier</td>
+    <td align='center'> n_estimators, max_depth</td>
+    <td align='center'>0.641</td>
+    <td align='center'>0.653</td>
+    <td align='center'>0.638</td>
+    <td align='center'>0.652</td>
+    <td align='center'><a href="FrejAdam/PD2.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
