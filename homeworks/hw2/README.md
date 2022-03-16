@@ -50,7 +50,7 @@
     <td align='center'>0.57</td>
     <td align='center'>0.58</td>
     <td align='center'>0.62</td>
-    <td align='center'></td>
+    <td align='center'><a href="KruszewskiJan/hw2.html">link</td>
       </tr>
   </tbody>
 </table>
