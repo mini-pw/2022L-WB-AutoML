@@ -148,6 +148,18 @@
     <td align='center'>0.652</td>
     <td align='center'><a href="FrejAdam/PD2.ipynb">link</td>
       </tr>
+   <tr>
+    <td>12</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>GradientBoostingClassifier</td>
+    <td align='center'> loss, n_estimators, learning_rate</td>
+    <td align='center'>0.628</td>
+    <td align='center'>0.637</td>
+    <td align='center'>0.642</td>
+    <td align='center'>0.668</td>
+    <td align='center'><a href="KrupinskiTomasz/KrupinskiTomasz.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
