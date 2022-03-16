@@ -124,6 +124,18 @@
     <td align='center'>0.6898</td>
     <td align='center'><a href="BujakowskiHubert/hw2.html">link</td>
       </tr>  
+  <tr>
+    <td>5</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>ExtraTreesClassifier</td>
+    <td align='center'> n_estimators, criterion, min_samples_leaf, min_samples_split, max_features</td>
+    <td align='center'>0.6729</td>
+    <td align='center'>0.6800</td>
+    <td align='center'>0.6939</td>
+    <td align='center'>0.6959</td>
+    <td align='center'><a href="WitasMarcel/hw2.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
