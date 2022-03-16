@@ -148,6 +148,18 @@
     <td align='center'>0.652</td>
     <td align='center'><a href="FrejAdam/PD2.ipynb">link</td>
       </tr>
+  <tr>
+    <td>11</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>EtraTreeClassifier</td>
+    <td align='center'> criterion, n_estimators, min_samples_leaf, max_features </td>
+    <td align='center'>0.644</td>
+    <td align='center'> </td>
+    <td align='center'> </td>
+    <td align='center'> </td>
+    <td align='center'><a href="SiudalskiTomasz/PD2.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
