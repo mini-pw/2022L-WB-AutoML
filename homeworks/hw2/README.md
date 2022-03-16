@@ -113,7 +113,7 @@
     <td align='center'><a href="KurowskiKacper/[WB2]_PD2_Kacper_Kurowski.ipynb">link</td>
       </tr>  
      <tr>
-    <td>8</td>
+    <td>9</td>
     <td align='center'>---</td>
     <td align='center'>3</td>
     <td align='center'>RandomForestClassifier</td>
@@ -125,7 +125,7 @@
     <td align='center'><a href="BujakowskiHubert/hw2.html">link</td>
       </tr>  
   <tr>
-    <td>9</td>
+    <td>10</td>
     <td align='center'>---</td>
     <td align='center'>3</td>
     <td align='center'>ExtraTreesClassifier</td>
