@@ -182,6 +182,17 @@
     <td align='center'>0.6918</td>
     <td align='center'><a href="SkowronskiDamian/WB_PD2.ipynb">link</td>
       </tr>
+      <td>15</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForrestClassifier</td>
+    <td align='center'> n_estimators, min_samples_split, min_samples_leaf, max_features, max_depth, bootstrap</td>
+    <td align='center'>0.6827</td>
+    <td align='center'>0.6954</td>
+    <td align='center'>0.6946</td>
+    <td align='center'>0.6951</td>
+    <td align='center'><a href="TomczykMichal/homework2_fixed.ipynb">link</td>
+      </tr>
   </tbody>
 </table>
 
