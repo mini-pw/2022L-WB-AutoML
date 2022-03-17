@@ -56,7 +56,8 @@ Warszataty Badawcze składają się z:
     <td>5</td>
     <td>24-03</td>
     <td>Prace z róznymi pakietami do AutoML</td>
-    <td>Kamień milowy 1 (8 pkt)</td>
+    <td>
+     <a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/25" </a> Kamień milowy 1 (8 pkt)</td>
   </tr>
   <tr>
     <td>6</td>
