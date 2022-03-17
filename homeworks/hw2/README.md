@@ -166,10 +166,10 @@
     <td align='center'>ExtraTreesClassifier</td>
     <td align='center'> n_estimators, criterion, min_samples_leaf, max_features</td>
     <td align='center'>0.645</td>
-    <td align='center'> </td>
-    <td align='center'> </td>
-    <td align='center'> </td>
-    <td align='center'><a href="SiudalskiTomasz/PD2.ipynb">link</td>
+    <td align='center'>0.679</td>
+    <td align='center'>0.680</td>
+    <td align='center'>0.680</td>
+    <td align='center'><a href="SiudalskiTomasz/PD2 - updated.ipynb">link</td>
       </tr>
     <td>14</td>
     <td align='center'>---</td>
