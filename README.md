@@ -134,7 +134,9 @@ Warszataty Badawcze składają się z:
 | Punkty   | (50, 60] | (60, 70] | (70, 80] | (80, 90] | (90, ∞) |
 
 ### Literatura
+- [An Open Source AutoML Benchmark](https://arxiv.org/abs/1907.00909)
 - [Towards Automated Machine Learning: Evaluation and Comparison of AutoML Approaches and Tools](https://arxiv.org/abs/1908.05557)
+- [A Comparison of AutoML Tools for Machine Learning, Deep Learning and XGBoost](https://ieeexplore.ieee.org/abstract/document/9534091)
 - [Auto-Sklearn 2.0: Hands-free AutoML via Meta-Learning](https://arxiv.org/abs/2007.04074)
 - [AutoML: Methods, Systems, Challenges](https://www.automl.org/wp-content/uploads/2019/05/AutoML_Book.pdf)
 - [Explanatory Model Analysis. Explore, Explain and Examine Predictive Models](https://pbiecek.github.io/ema/)
