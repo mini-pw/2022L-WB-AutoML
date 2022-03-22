@@ -63,6 +63,7 @@ Warszataty Badawcze składają się z:
     <td>6</td>
     <td>07-04 (8:15)</td>
     <td>Prezentacje wybranych pakietów</td>
+   <td></td>
   </tr>
   <tr>
     <td>7</td>
