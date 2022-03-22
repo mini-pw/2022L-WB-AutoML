@@ -68,48 +68,48 @@ Warszataty Badawcze składają się z:
     <td>7</td>
     <td>07-04 (14:15)</td>
     <td>Prezentacje wybranych pakietów + dyskusja </td>
-    <td></td>
-  </tr>
+    <td>Kamień milowy 2 (10 pkt)</td>
+  </tr>Metody oceny szybkości optymalizacji,  anytime performance
   <tr>
     <td>8</td>
     <td>14-04</td>
-    <td>Benchmarki</td>
-    <td>Kamień milowy 2 (10 pkt)</td>
+    <td>Struktura artykułów + Benchmarki + Metody oceny szybkości optymalizacji,  anytime performance</td>
+    <td>Kamień milowy 3 (6 pkt)</td>
   </tr>
   <tr>
     <td>9</td>
     <td>21-04</td>
-    <td>Meta-learning, ensembling modeli</td>
-    <td>Kamień milowy 3 (6 pkt)</td>
+    <td>Omówienie KM2</td>
+    <td>Praca domowa 3 (6 pkt)</td>
   </tr>
   <tr>
     <td>10</td>
     <td>28-04</td>
-    <td>Metody oceny szybkości optymalizacji,  anytime performance</td>
-    <td>Praca domowa 3 (6 pkt)</td>
+    <td>Meta-learning, ensembling modeli. Nasz benchmark.</td>
+    <td>Kamień milowy 4 (8 pkt)</td>
   </tr>
   <tr>
     <td>11</td>
     <td>05-05</td>
-    <td>Konsultacje</td>
-    <td>Kamień milowy 4 (8 pkt)</td>
+    <td>Oddanie KM3. Konsultacje</td>
+    <td></td>
   </tr>
   <tr>
     <td>12</td>
     <td>19-05</td>
-    <td>Transfer hiperparametrów. HyPerf</td>
+    <td>Transfer hiperparametrów. HyPerf. Konsultacje</td>
     <td></td>
   </tr>
   <tr>
     <td>13</td>
     <td>26-05</td>
-    <td>Omówienie struktury artykułu</td>
+    <td>Ewaluacja benchmarku. Omówienie KM4</td>
     <td></td>
   </tr>
   <tr>
     <td>14</td>
     <td>02-06</td>
-    <td>Konsultacje projektowe</td>
+    <td>Konsultacje projektowe. Możliwe oddanie każdej części artykułu do spr.</td>
     <td></td>
   </tr>
   <tr>
