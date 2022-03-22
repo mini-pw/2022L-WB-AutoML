@@ -68,25 +68,25 @@ Warszataty Badawcze składają się z:
     <td>7</td>
     <td>07-04 (14:15)</td>
     <td>Prezentacje wybranych pakietów + dyskusja </td>
-    <td>Kamień milowy 2 (10 pkt)</td>
-  </tr>Metody oceny szybkości optymalizacji,  anytime performance
+    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/26"> Kamień milowy 2 (10 pkt)</a></td>
+  </tr>
   <tr>
     <td>8</td>
     <td>14-04</td>
     <td>Struktura artykułów + Benchmarki + Metody oceny szybkości optymalizacji,  anytime performance</td>
-    <td>Kamień milowy 3 (6 pkt)</td>
+    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/27"> Kamień milowy 3 (6 pkt) </a></td>
   </tr>
   <tr>
     <td>9</td>
     <td>21-04</td>
     <td>Omówienie KM2</td>
-    <td>Praca domowa 3 (6 pkt)</td>
+    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/28"> Praca domowa 3 (6 pkt)</a></td>
   </tr>
   <tr>
     <td>10</td>
     <td>28-04</td>
     <td>Meta-learning, ensembling modeli. Nasz benchmark.</td>
-    <td>Kamień milowy 4 (8 pkt)</td>
+    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/29">Kamień milowy 4 (8 pkt)</a></td>
   </tr>
   <tr>
     <td>11</td>
