@@ -80,20 +80,20 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>9</td>
     <td>21-04</td>
-    <td>Omówienie KM2</td>
-    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/28"> Praca domowa 3 (6 pkt)</a></td>
+    <td>Meta-learning, ensembling modeli. Nasz benchmark.</td>
+    <td></td>
   </tr>
   <tr>
     <td>10</td>
     <td>28-04</td>
-    <td>Meta-learning, ensembling modeli. Nasz benchmark.</td>
-    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/29">Kamień milowy 4 (8 pkt)</a></td>
+    <td>Omówienie KM2</td>
+    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/28"> Praca domowa 3 (6 pkt)</a></td>
   </tr>
   <tr>
     <td>11</td>
     <td>05-05</td>
     <td>Oddanie KM3. Konsultacje</td>
-    <td></td>
+    <td><a href = "https://github.com/MI2-Education/2022L-WB-AutoML/issues/29">Kamień milowy 4 (8 pkt)</a></td>
   </tr>
   <tr>
     <td>12</td>
