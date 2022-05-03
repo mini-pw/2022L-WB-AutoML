@@ -81,7 +81,7 @@ def make_kfold_cross_valiation(
 
         results[fold_index] = max_roc_auc_model
 
-        fold_index = 1
+        fold_index += 1
 
         print(f"\n Fold {fold_index} \n")
 
