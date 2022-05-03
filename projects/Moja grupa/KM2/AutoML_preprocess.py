@@ -1,6 +1,7 @@
 from autosklearn.experimental.askl2 import AutoSklearn2Classifier
 from autosklearn.metrics import roc_auc
 from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.model_selection import StratifiedKFold
 import pandas as pd
 
 def fit_automl(X:pd.DataFrame, y:pd.DataFrame):
@@ -59,3 +60,26 @@ def cross_valid(predictors, target, indexes):
         result["accuracy"].append(accuracy_score(y_test, y_pred))
         result["auc"].append(roc_auc_score(y_test, y_proba))
     return result
+
+def funkcja(X, y, spliter=StratifiedKFold(n_splits=10, shuffle=True, random_state=10)):
+    X, y = preprocess(X, y)
+    result = {}
+    result["accuracy"] = []
+    result["auc"] = []
+    models = []
+    
+    for train_index, test_index in spliter.split(X, y):
+        X_train = X.iloc[train_index]
+        y_train = y.iloc[train_index]
+        model = fit_automl(X_train, y_train)
+        
+        X_test = X.iloc[test_index]
+        y_test = y.iloc[test_index]
+        
+        y_pred = model.predict(X_test)
+        y_proba = model.predict_proba(X_test)[:,1]
+        result["accuracy"].append(accuracy_score(y_test, y_pred))
+        result["auc"].append(roc_auc_score(y_test, y_proba))
+        models.append(model)
+        
+    return models, result
