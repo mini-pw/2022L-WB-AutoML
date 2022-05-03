@@ -42,6 +42,7 @@ def preprocess(X, y):
 
 
 def cross_valid(predictors, target, indexes):
+    """ Funkcja uzywana w ramach testowania """
     X, y = preprocess(predictors, target)
     result = {}
     result["accuracy"] = []
@@ -62,6 +63,7 @@ def cross_valid(predictors, target, indexes):
     return result
 
 def funkcja(X, y, spliter=StratifiedKFold(n_splits=10, shuffle=True, random_state=10)):
+    """ Funkcja do uzycia z spliterem """
     X, y = preprocess(X, y)
     result = {}
     result["accuracy"] = []
