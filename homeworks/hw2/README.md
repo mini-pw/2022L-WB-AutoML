@@ -1,4 +1,4 @@
-## Podsumowaniwe pracy domowej 2
+## Podsumowanie pracy domowej 2
 
 <table>
 <thead>
@@ -18,15 +18,180 @@
 <tbody>
    <tr>
     <td>1</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'> n_estimators, criterion, min_samples_leaf, min_samples_split</td>
+    <td align='center'>0.8441</td>
+    <td align='center'>0.8508</td>
+    <td align='center'>0.8511</td>
+    <td align='center'>0.8508</td>
+    <td align='center'><a href="TomaszewskiŁukasz/WB_PD_2.ipynb">link</td>
+      </tr>
+  <tr>
+    <td>2</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'> n_estimators, criterion, max_features, max_depth min_samples_split</td>
+    <td align='center'>0.6600572212993829</td>
+    <td align='center'>0.6515612275157766</td>
+    <td align='center'>0.6137562012818499</td>
+    <td align='center'>0.683000773865825</td>
+    <td align='center'><a href="RoguskiMikolaj/Untitled.ipynb">link</td>
+      </tr>
+  <tr>
+    <td>3</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'> n_estimators, max_features, max_depth min_samples_split, min_samples_leaf, bootstrap</td>
+    <td align='center'>0.63</td>
+    <td align='center'>0.57</td>
+    <td align='center'>0.58</td>
+    <td align='center'>0.62</td>
+    <td align='center'><a href="KruszewskiJan/hw2.html">link</td>
+      </tr>
+  <tr>
+    <td>4</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'> n_estimators, max_features, max_depth, min_samples_split, min_samples_leaf, bootstrap, criterion</td>
+    <td align='center'>0.6756</td>
+    <td align='center'>0.6919</td>
+    <td align='center'>0.6919</td>
+    <td align='center'>0.6887</td>
+    <td align='center'><a href="https://github.com/MI2-Education/2022L-WB-AutoML/tree/main/homeworks/hw2/Grzegorz_Zbrze%C5%BCny">link</td>
+      </tr>
+  <tr>
+    <td>5</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>XGBClassifier</td>
+    <td align='center'> gamma, learning_rate, max_depth, n_estimators, reg_alpha, reg_lambda</td>
+    <td align='center'>0.6913</td>
+    <td align='center'>0.6940</td>
+    <td align='center'>0.6963</td>
+    <td align='center'>0.6957</td>
+    <td align='center'><a href="GałkowskiMikołaj/hw2_Gałkowski">link</td>
+      </tr> 
+      <tr>
+    <td>6</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>XGBClassifier</td>
+    <td align='center'>gamma, learning_rate, max_depth, min_child_weight, subsample</td>
+    <td align='center'>0.6910</td>
+    <td align='center'>0.6936</td>
+    <td align='center'>0.6953</td>
+    <td align='center'>0.6955</td>
+    <td align='center'><a href="MarciniakPiotr/homework.ipynb">link</td>
+      </tr>
+      <tr>
+    <td>7</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>LGBMClassifier</td>
+    <td align='center'>max_depth, min_data_in_leaf, n_estimators, num_leaves</td>
+    <td align='center'>0.7287</td>
+    <td align='center'>-</td>
+    <td align='center'>0.7295</td>
+    <td align='center'>0.7283</td>
+    <td align='center'><a href="KomorowskiMichal/homework2.ipynb">link</td>
+      </tr> 
+    <tr>
+    <td>8</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>GradientBoostingClassifier</td>
+    <td align='center'>criterion, learning_rate, max_depth</td>
+    <td align='center'>0.869</td>
+    <td align='center'>0.874</td>
+    <td align='center'>0.873</td>
+    <td align='center'>0.874</td>
+    <td align='center'><a href="KurowskiKacper/[WB2]_PD2_Kacper_Kurowski.ipynb">link</td>
+      </tr>  
+     <tr>
+    <td>9</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForestClassifier</td>
+    <td align='center'>n_estimators, criterion, min_samples_split, min_samples_leaf, bootstrap</td>
+    <td align='center'>0.67</td>
+    <td align='center'>0.6854</td>
+    <td align='center'>0.6858</td>
+    <td align='center'>0.6898</td>
+    <td align='center'><a href="BujakowskiHubert/hw2.html">link</td>
+      </tr>  
+  <tr>
+    <td>10</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>ExtraTreesClassifier</td>
+    <td align='center'> n_estimators, criterion, min_samples_leaf, min_samples_split, max_features</td>
+    <td align='center'>0.6729</td>
+    <td align='center'>0.6800</td>
+    <td align='center'>0.6939</td>
+    <td align='center'>0.6959</td>
+    <td align='center'><a href="WitasMarcel/hw2.ipynb">link</td>
+      </tr>
+  <tr>
+    <td>11</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>GradientBoostingClassifier</td>
+    <td align='center'> n_estimators, max_depth</td>
+    <td align='center'>0.641</td>
+    <td align='center'>0.653</td>
+    <td align='center'>0.638</td>
+    <td align='center'>0.652</td>
+    <td align='center'><a href="FrejAdam/PD2.ipynb">link</td>
+      </tr>
+   <tr>
+    <td>12</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>GradientBoostingClassifier</td>
+    <td align='center'> loss, n_estimators, learning_rate</td>
+    <td align='center'>0.628</td>
+    <td align='center'>0.637</td>
+    <td align='center'>0.642</td>
+    <td align='center'>0.668</td>
+    <td align='center'><a href="KrupinskiTomasz/KrupinskiTomasz.ipynb">link</td>
+      </tr>
+  <td>13</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>ExtraTreesClassifier</td>
+    <td align='center'> n_estimators, criterion, min_samples_leaf, max_features</td>
+    <td align='center'>0.645</td>
+    <td align='center'>0.679</td>
+    <td align='center'>0.680</td>
+    <td align='center'>0.680</td>
+    <td align='center'><a href="SiudalskiTomasz/PD2 - updated.ipynb">link</td>
+      </tr>
+    <td>14</td>
+    <td align='center'>---</td>
+    <td align='center'>5</td>
+    <td align='center'>RandomForrestClassifier</td>
+    <td align='center'> n_estimators, min_samples_split, max_features</td>
+    <td align='center'>0.6853</td>
+    <td align='center'>0.6962</td>
+    <td align='center'>0.6918</td>
+    <td align='center'>0.6918</td>
+    <td align='center'><a href="SkowronskiDamian/WB_PD2.ipynb">link</td>
+      </tr>
+      <td>15</td>
+    <td align='center'>---</td>
+    <td align='center'>3</td>
+    <td align='center'>RandomForrestClassifier</td>
+    <td align='center'> n_estimators, min_samples_split, min_samples_leaf, max_features, max_depth, bootstrap</td>
+    <td align='center'>0.6827</td>
+    <td align='center'>0.6954</td>
+    <td align='center'>0.6946</td>
+    <td align='center'>0.6951</td>
+    <td align='center'><a href="TomczykMichal/homework2_fixed.ipynb">link</td>
       </tr>
   </tbody>
 </table>

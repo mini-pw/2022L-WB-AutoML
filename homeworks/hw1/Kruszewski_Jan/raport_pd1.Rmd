@@ -1,0 +1,336 @@
+---
+title: "Praca Domowa 1"
+author: "Jan Kruszewski"
+date: "5.03.2022"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+df <- read.csv("diabetic_data.csv")
+```
+
+## Wymiary ramki z danymi 
+
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+d1 <- data.frame(c("Ilość obserwacji", "Ilość zmiennych"), c(dim(df)[1], dim(df)[2]))
+colnames(d1) <- NULL
+knitr::kable(d1, "html")
+```
+
+## Typy zmiennych
+
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+library(dplyr)
+typy <- sapply(df, class)
+typy <- as.data.frame(typy)
+colnames(typy) <- "typ zmiennej"
+
+knitr::kable(typy, "pipe")
+
+```
+
+## Zmienne objaśniające oraz zmienna objaśniana
+W zbiorze danych czytamy, że celem badania jest określenie czy osoba badana zostanie ponownie przyjęta do szpitala. Stąd możemy stwierdzić, że zmeinną objaśnianą jest zmienna readmitted. Do zmiennych objaśniających możemy zaliczyć wszystkie zmienne poza zmiennymi identyfikującymi czyli encounter_id oraz patient_nbr oraz oczywiście zmienną readmitted.
+
+## Identyfikacja brakujących zmiennych oraz wybranie zmiennych
+
+W tabelce przedstawiłem zmienne, które zawierają braki danych
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+
+braki <- cbind(
+    lapply(
+        lapply(df, FUN=function(x)x=="?")
+        , sum)
+  )
+
+braki <- as.data.frame(braki)
+braki <- braki %>% filter(V1!=0) 
+colnames(braki) <- "Ilość braków danych"
+knitr::kable(braki, "pipe")
+
+
+```
+
+Teraz zajmiemy się imputacją braków danych. Zmienne race, payer_code, medical_speciality są zmiennymi kateogrycznymi. Nie uda nam się więc w dobry sposób zapełnić ich braków danych przykładowo korzystając ze średniaj pozostałych wartości. Początkowo planowałem usunąć rekordy zawierające braki danych dla tych zmiennych lecz jest ich na tyle dużo, że usunięcie ich skutkowałoby utratą znacznej części danych. Zastosowałem więc taktykę wpisania w miejsca braku danych odpowiedniej adnotacji. Przykłądowo dla kolumn race Missing_race. W przypadku zmiennej weight braki danych stanowią prawie 97% wszysztkich rekordów w kolumnie stąd całą kolumnę musimy usunąć. Dla zmiennych diag1, diag2 oraz diag3 usunąłem rekordy z brakami danych. Zmienne te zawierają dosyć mało braków danych, a uśrednienie wyników też jest niemożliwe przez występujące specyficzne opisy diagnozy zawierające poza liczbą litery. Dodatkowo usuniemy 2 kolumny examide i citoglipton. Zawierają one tylko jedną unikalną wartość przez co nie ma sensu ich przechowywać.
+ 
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+library(stringr)
+df <- df %>% select(-c(weight, examide, citoglipton)) %>% filter(diag_1 != "?") %>% filter( diag_2 != "?") %>% filter(diag_3 != "?")
+
+df$race[df$race == "?"] <- "Missing_race"
+df$payer_code[df$payer_code == "?"] <- "Missing_code"
+df$medical_specialty[df$medical_specialty == "?"] <- "Missing_medical_specialty"
+df <- df %>% filter(gender != "Unknown/Invalid")
+
+
+```
+Na koniec sprawdźmy czy ramka nie zawiera zmiennych mocno skorelownych, które musilibyśmy usunąć. Stwórzmy wykres korelacji dla wszystkich zmiennych numerycznych.
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+library(corrplot)
+df_cor <- df %>% select(where(is.numeric))
+M=cor(df_cor)
+corrplot(M, method = 'ellipse', order = 'AOE', type = 'upper')
+
+```
+
+Żadna para zmiennych nie jest na tyle skorelowana, żeby ją usuwać . Najbardziej skorelowane są zmienne num_medication i time_in_hospital oraz encounter_id i patient_nbr.
+
+## Encoding zmiennych kategorycznych
+Zacznijmy od zinterpretowania danych w kolumnach diag_1, diag_2 oraz diag_3. Do tego skorzystajmy z objaśnienia diagnozy na podstawie wyniku, które znaleźleć można było na stronie. 
+
+
+![](wyniki.png)
+
+Po odpowiedniej podmiance wyników na diagnozy otrzymujemy takie kolumny, dające nam już znacznie łatwiejsze dane do analizy:
+
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df <- df %>% mutate(diag_1=case_when(
+  (as.numeric(diag_1) < 460 & as.numeric(diag_1) >389) || as.numeric(diag_1)==785 ~ "Circulatory",
+  (as.numeric(diag_1) < 520 & as.numeric(diag_1) >459) || as.numeric(diag_1)==786 ~ "Respiratory",
+   (as.numeric(diag_1) < 580 & as.numeric(diag_1) >519) || as.numeric(diag_1)==787~ "Digestive",
+   as.numeric(diag_1) < 1000 & as.numeric(diag_1) >799 ~ "Injury",
+   str_detect(as.numeric(diag_1), "250") ~ "Diabets",
+   as.numeric(diag_1) < 740 & as.numeric(diag_1) >709 ~ "Musculoskeletal",
+   as.numeric(diag_1) < 630 & as.numeric(diag_1) >580 ~ "Genitourinary",
+   as.numeric(diag_1) < 240 & as.numeric(diag_1) >139 ~ "Neoplasms",
+   TRUE ~ "Other"
+   ))
+
+df <- df %>% mutate(diag_2=case_when(
+  (as.numeric(diag_2) < 460 & as.numeric(diag_2) >389) || as.numeric(diag_2)==785 ~ "Circulatory",
+  (as.numeric(diag_2) < 520 & as.numeric(diag_2) >459) || as.numeric(diag_2)==786 ~ "Respiratory",
+   (as.numeric(diag_2) < 580 & as.numeric(diag_2) >519) || as.numeric(diag_2)==787~ "Digestive",
+   as.numeric(diag_2) < 1000 & as.numeric(diag_2) >799 ~ "Injury",
+   str_detect(as.numeric(diag_2), "250") ~ "Diabets",
+   as.numeric(diag_2) < 740 & as.numeric(diag_2) >709 ~ "Musculoskeletal",
+   as.numeric(diag_2) < 630 & as.numeric(diag_2) >580 ~ "Genitourinary",
+   as.numeric(diag_2) < 240 & as.numeric(diag_2) >139 ~ "Neoplasms",
+   TRUE ~ "Other"
+   ))
+
+df <- df %>% mutate(diag_3=case_when(
+  (as.numeric(diag_3) < 460 & as.numeric(diag_3) >389) || as.numeric(diag_3)==785 ~ "Circulatory",
+  (as.numeric(diag_3) < 520 & as.numeric(diag_3) >459) || as.numeric(diag_3)==786 ~ "Respiratory",
+   (as.numeric(diag_3) < 580 & as.numeric(diag_3) >519) || as.numeric(diag_3)==787~ "Digestive",
+   as.numeric(diag_3) < 1000 & as.numeric(diag_3) >799 ~ "Injury",
+   str_detect(as.numeric(diag_3), "250") ~ "Diabets",
+   as.numeric(diag_3) < 740 & as.numeric(diag_3) >709 ~ "Musculoskeletal",
+   as.numeric(diag_3) < 630 & as.numeric(diag_3) >580 ~ "Genitourinary",
+   as.numeric(diag_3) < 240 & as.numeric(diag_3) >139 ~ "Neoplasms",
+   TRUE ~ "Other"
+   ))
+
+
+knitr::kable(slice(df %>% select(diag_1,diag_2, diag_3),seq(10,16,1)), "pipe")
+
+```
+
+Teraz możemy przejść do encodingu zmiennych. Dla zmiennych kategoryczcznych o 2-4 unikalnych wartościach zastosujemy One-hot encoding. Dla zmiennych o większej ilości unikalnych wartości zastosowałem label encoding. 
+Poniżej przedstawiam zmiany w kolumnach za pomocą one-hot encoding. Przedstawiane zmiennej kategoryczne to gander oraz glipizide.
+
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+library(caret)
+library(superml)
+df_onehot <- df %>% select_if(function(col) length(unique(col))>1 && length(unique(col))<5 )
+dmy <- dummyVars(" ~ .", data = df_onehot, fullRank = T)
+df_onehot <- df %>% select(encounter_id, function(col) (length(unique(col))>1 && length(unique(col))<5))
+df_encoded <- df %>% select(function(col) length(unique(col))<=1 || length(unique(col))>=5)
+dmy <- dummyVars(" ~ .", data = df_onehot, fullRank = T)
+df_onehot <- data.frame(predict(dmy, newdata = df_onehot))
+
+df_encoded <- df_encoded %>% inner_join(df_onehot, by = "encounter_id")
+
+label <- LabelEncoder$new()
+df_encoded$race <- label$fit_transform(df_encoded$race)
+df_encoded$payer_code <- label$fit_transform((df_encoded$payer_code))
+df_encoded$medical_specialty <- label$fit_transform(df_encoded$medical_specialty)
+df_encoded$diag_1 <- label$fit_transform(df_encoded$diag_1)
+df_encoded$diag_2 <- label$fit_transform(df_encoded$diag_2)
+df_encoded$diag_3 <- label$fit_transform(df_encoded$diag_3)
+
+
+knitr::kable(head(df_onehot %>% select(encounter_id, genderMale, glipizideNo, glipizideSteady, glipizideUp)), "pipe")
+
+```
+
+Tutaj przedstawiam przykłądowe kolumny, dla których zastosowałem label encoding. Dla kolumny race przykładowo 0 symbolizuje rasę Caucasion, 1 AfricanAmerican, 2 Missing_race.
+
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+
+knitr::kable(slice(df_encoded %>% select(encounter_id, race, medical_specialty, payer_code),seq(14,20,1)), "pipe")
+
+```
+
+Ostatecznie po imputacji oraz encodingu zmiennych kategorycznych otrzymujemy ramkę danych o następującej strukturze.
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+
+str(df_encoded)
+
+```
+
+
+
+
+
+## Analiza eksploracyjna danych jednowymiarowych
+
+### Zmienne ilościowe
+Przejdziemy się po zmiennych numerycznych tworząc dla nich histogramy. Dla zmiennych dla których ma to sens wyznaczone zostaną również mediany, średnie oraz kwantyle.
+
+#### Zmienna patient_nbr
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+library(ggplot2)
+df %>% ggplot(aes(patient_nbr))+geom_histogram()+stat_bin(bins=50)
+
+```
+
+#### Zmienna admission_type_id
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(admission_type_id))+geom_histogram()+stat_bin(bins=50)
+```
+
+
+#### Zmienna num_lab_procedures
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(num_lab_procedures))+geom_histogram()+stat_bin(bins=50)
+summary(df$num_lab_procedures)
+```
+
+#### Zmienna num_medications
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(num_medications))+geom_histogram()+stat_bin(bins=50)
+summary(df$num_medications)
+```
+
+#### Zmienna number_outpatient
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(number_outpatient))+geom_histogram()+stat_bin(bins=50)
+summary(df$number_outpatient)
+```
+
+#### Zmienna number_emergency
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(number_emergency))+geom_histogram()+stat_bin(bins=50)
+summary(df$number_emergency)
+```
+
+#### Zmienna number_inpatient
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(number_inpatient))+geom_histogram()+stat_bin(bins=50)
+summary(df$number_inpatient)
+```
+
+#### Zmienna number_diagnoses
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+df %>% ggplot(aes(number_diagnoses))+geom_histogram()+stat_bin(bins=50)
+summary(df$number_diagnoses)
+```
+
+
+### Zmienne kategoryczne
+Przejdziemy się po przykłądowych zmiennych kategorycznych tworząc dla nich wykresy słupkowe.
+
+#### Zmienna race
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=race))+
+  geom_bar()
+```
+
+#### Zmienna gender
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=gender))+
+  geom_bar()
+```
+
+#### Zmienna age
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=age))+
+  geom_bar()
+```
+
+#### Zmienna insulin
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=insulin))+
+  geom_bar()
+```
+
+#### Zmienna readmitted
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=readmitted))+
+    geom_bar()
+```
+
+## Analiza wielowymiarowa
+
+### Zmienne ilościowe
+Do zminnych ilościowych stosuję wykresy rozproszenia.
+
+#### Zmienna num_lab_procedures i time_in_hospital
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=time_in_hospital, y = num_lab_procedures))+
+    geom_point()+
+  geom_smooth()
+```
+
+
+#### Zmienna number_diagnoses oraz number_inpatient
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=number_diagnoses, y = number_inpatient))+
+    geom_point()+
+    geom_smooth()
+```
+
+
+#### Zmienna number_emergency oraz number_inpatient
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=number_emergency, y = number_inpatient))+
+    geom_point()+
+    geom_smooth()
+```
+
+### Zmienne jakościowe
+To takich zmiennych zastosuję tabele kontyngencji.
+
+#### Zmienne race oraz gender
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+knitr::kable(prop.table(table(df$gender, df$race)), "pipe")
+```
+
+
+#### Zmienne age oraz gender
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+knitr::kable(prop.table(table(df$age, df$gender)), "pipe")
+```
+
+#### Zmienne age oraz insuline
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+knitr::kable(prop.table(table(df$age, df$insulin)), "pipe")
+```
+
+### Zmienne jakościowe i ilościowe
+Do tego typu zmiennych zastosuję wykresy boxplot oraz wykres słupkowy.
+
+#### Zmienne age oraz time_in_hospital
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=age, y = time_in_hospital))+
+    geom_boxplot()
+```
+
+#### Zmienne gender oraz num_medications
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=gender, y = num_medications))+
+    geom_boxplot()
+```
+
+#### Zmienne diag_1 oraz number_diagnoses
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+ggplot(df, aes(x=diag_1, y = number_diagnoses))+
+  geom_boxplot()
+    
+```
+
