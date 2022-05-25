@@ -1,6 +1,6 @@
 from time import perf_counter
 from flaml import AutoML
-from .preprocessing.preprocessor import get_pre
+from preprocessing.preprocessor import get_pre
 from sklearn.base import BaseEstimator
 import pandas as pd
 from typing import Any
@@ -10,7 +10,6 @@ class OurFlaml(BaseEstimator):
         super().__init__()
         self.ml = AutoML(**kwargs)
         self._logger = logging.getLogger(__name__)
-        
     def train(self,data_x:pd.DataFrame, data_y:pd.DataFrame, cv: Any=None, **kwargs):
         """
         Parameters

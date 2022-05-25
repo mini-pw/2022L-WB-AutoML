@@ -1,21 +1,15 @@
 import logging
 import logging.config
-
-logging_level = logging.DEBUG
-logger = logging.getLogger(__name__)
-logger.setLevel(logging_level)
-import os
-print(os.getcwd())
-with open('log.txt', 'w') as file:
-    pass
-logger_handler = logging.FileHandler(filename = 'log.txt')
-logger_handler.setLevel(logging_level)
-logger_formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
-logger_handler.setFormatter(logger_formatter)
-logger.addHandler(logger_handler)
-logger.info('Completed configuring logger()!')
+import sys
 
 
-from .OurFlaml import OurFlaml
+#ustaw na DEBUG żeby pokazywały się informacje z preprocessingu
+logging_level = logging.INFO
+logger = logging.getLogger()
+fhandler = logging.FileHandler(filename=".log.txt", mode = 'w')
+logger.addHandler(fhandler)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(lineno)s - %(message)s')
+fhandler.setFormatter(formatter)
+consoleHandler = logging.StreamHandler(sys.stdout)
+consoleHandler.setFormatter(formatter)
 
-__version__ = '0.1.0'
