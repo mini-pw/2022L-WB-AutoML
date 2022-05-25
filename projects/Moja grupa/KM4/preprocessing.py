@@ -55,11 +55,7 @@ def preprocess(X, y):
             num.remove(col)
             cat.append(col)
     
-    #print(num)
-    #print(date)
-    #print(cat)
-    #print(woe)
-    
+
     numeric_pipe = Pipeline(steps=[
         ("imputer", SimpleImputer(missing_values=np.nan, strategy="mean")),
         ("scaler", StandardScaler()),
@@ -67,7 +63,6 @@ def preprocess(X, y):
     ])
     
     date_pipe = Pipeline([
-        #('impute', SimpleImputer(missing_values=np.nan, strategy="most_frequent")),
         ("datetime_transformer", DateTransformer())
     ])
     
