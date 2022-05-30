@@ -98,7 +98,7 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>12</td>
     <td>19-05</td>
-    <td>Transfer hiperparametrów. HyPerf. Konsultacje</td>
+    <td>Konsultacje</td>
     <td></td>
   </tr>
   <tr>
