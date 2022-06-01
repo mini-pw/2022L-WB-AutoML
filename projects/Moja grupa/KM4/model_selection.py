@@ -1,18 +1,20 @@
+from typing import Tuple
+
 import numpy as np
 import pandas as pd
-import sklearn
-from sklearn.linear_model import ElasticNet, LogisticRegression
+import skopt
+from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier, StackingClassifier, AdaBoostClassifier
-from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
-from skopt import BayesSearchCV
-from preprocessing import preprocess
-from sklearn.dummy import DummyClassifier
-import skopt
 from sklearn.pipeline import Pipeline
+from sklearn.svm import SVC
+from skopt import BayesSearchCV
 
-cfg = {
+from preprocessing import preprocess
+
+cfg = {  # definicja modeli wraz z przestrzeniami przeszukiwań parametrów
     LogisticRegression: {
         'penalty': skopt.space.Categorical(['elasticnet']),
         'C': skopt.space.Real(0.01, 4),
@@ -46,7 +48,7 @@ cfg = {
     }
 }
 
-ensembles = [
+ensembles = [  # definicje stackowanych ensembli
     StackingClassifier([
         ('svc', SVC(probability=True)),
         ('abc', AdaBoostClassifier()),
@@ -93,21 +95,34 @@ ensembles = [
 ]
 
 
-def set_model(prefix, model_settings):
+def set_model(prefix: str, model_settings: dict) -> dict:
+    """
+        Funkcja pomocnicza ustawiająca parametry w ensemblingu. Prefix oznaczał nazwę modelu do stacking classifier'a.
+        Natomiast model_settings zawiera ustawienia dla danego typu modelu. Zwracany jest słownik, który jako klucze
+        zawiera dobrze zdefiniowane nazwy do optymalizacji bayesowskiej.
+    """
     local_set = {}
     for key, value in model_settings.items():
         local_set["ensemble__" + prefix + "__" + key] = value
     return local_set
 
 
-def create_folds(X, y, spliter):
+def create_folds(x: pd.DataFrame, y: pd.Series, spliter):
+    """
+        Tworzenie foldów jako macierzy, ponieważ cały czas wywoływanie split'a może być niestabilne pomiędzy różnymi
+        ensemblingami.
+    """
     folds = []
-    for train, test in spliter.split(X, y):
+    for train, test in spliter.split(x, y):
         folds.append((train, test))
     return folds
 
 
-def select_model(x, y, metric, spliter):
+def select_model(x: pd.DataFrame, y: pd.Series, metric, spliter) -> Tuple[list, any]:
+    """
+        Funkcja zwracająca krotkę z listę krotek w postaci model, wynik oraz
+        najlepszy model jako drugi element krotki.
+    """
     column_transformer = preprocess(x, y)
     folds = create_folds(x, y, spliter)
     scores = []
@@ -117,10 +132,10 @@ def select_model(x, y, metric, spliter):
             ("proc", column_transformer),
             ("ensemble", ensemble)
         ])
-        ensemble_config = {}
+        ensemble_config = {}  # config calego ensembla
         for prefix, model in ensemble.get_params()['estimators']:
             model_settings = cfg[type(model)]
-            ensemble_config.update(set_model(prefix, model_settings))
+            ensemble_config.update(set_model(prefix, model_settings))  # laczenie z konfigami poszczegolnych modeli
 
         final_model = ensemble.get_params()["final_estimator"]
         model_settings = cfg[type(final_model)]
@@ -148,4 +163,3 @@ def select_model(x, y, metric, spliter):
             best_model = model
 
     return scores, best_model
-

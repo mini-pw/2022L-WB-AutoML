@@ -9,6 +9,7 @@ from sklearn.compose import ColumnTransformer
 
 
 class DateTransformer(TransformerMixin, BaseEstimator):
+    """ Klasa transformująca każdą kolumnę z datą na 3 nowe kolumny oznaczające dzien, miesiac, rok """
 
     def __init__(self):
         self.feature_names = []
@@ -33,9 +34,17 @@ class DateTransformer(TransformerMixin, BaseEstimator):
 
     def get_feature_names(self):
         return self.feature_names
-    
-    
-def preprocess(x, y):
+
+
+def preprocess(x: pd.DataFrame, y: pd.Series) -> ColumnTransformer:
+    """
+    Metoda zwraca transformera, który został przygotowany na zbiorze danych.
+    W przypadku danych numerycznych są one uzupełniane średnią, po czym standaryzowane i skalowane do [0, 1].
+    W przypadku danych kategorycznych (za które uznajemy kolumny liczbowe mające mniej niż 10 wartości) są one
+    uzupełniane najczęstszą wartością. Jeśli mają więcej niż 20 kategorii do enkodingu używamy woe, natomiast jeśli
+    mniej OneHotEncodera.
+    W przypadku dat używamy naszego customowego DateTransformera.
+    """
     num = x.select_dtypes(['number']).columns.tolist()
     date = x.select_dtypes(['datetime']).columns.tolist()
     ob = x.select_dtypes(['object']).columns.tolist()
@@ -82,4 +91,3 @@ def preprocess(x, y):
     ], remainder='drop')
 
     return column_transformer
-
