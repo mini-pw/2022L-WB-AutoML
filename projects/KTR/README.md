@@ -1,15 +1,16 @@
-# Flaml  [link do strony](https://microsoft.github.io/FLAML/)
+# Flaml  
+[link](https://microsoft.github.io/FLAML/)
 
-## opis plików:
-* team5 - paczka pythonowa z preprocessingiem i flamlem gotowym do użycia
-* team5/preprocessing - oprócz preprocessor.py gdzie jest preprocessing reszta jest kopią
-* team5/OurFlaml - przygotowany przez nas do odpalenia flaml
-* KM2/Wyniki.csv - wyniki flamla
-* KM4/wyniki_ourml_test.csv - wyniki OurMLa
-* WB_projekt(1).pdf - końcowy artykuł
-* KM4/KM4.py - OurML
+## files:
+* `team5` - package with preprocessing and OurFlaml
+* `team5/preprocessing` - preprocessing.py contains all preprocessing rest of files here is redundant
+* `team5/OurFlaml` - prepared by us flaml ( the function we were supposed to make )
+* `KM2/Wyniki.csv` - flaml results
+* `KM4/wyniki_ourml_test.csv` - OurML results
+* `WB_projekt(1).pdf` - final article
+* `KM4/KM4.py` - OurML
 * 
 
-## jak uruchomić skrypt?
-* skopiuj KM4/KM4.py i team5 do folderu ze skryptem
+## how to run the script?
+* copy KM4/KM4.py and team5 to folder with script
 * 
