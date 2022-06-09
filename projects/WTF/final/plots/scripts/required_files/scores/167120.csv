@@ -1,0 +1,32 @@
+score,models
+0.5237917155262575,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.86 |
+|  1 | None            | LGBMLearner |     0.14 |"
+0.5323920168010157,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.5241317066582911,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.5244231730132555,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.5328299475028541,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.5245817234662777,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.528740126278084,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.5234532642248259,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.529309454781342,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.52771508919099,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"

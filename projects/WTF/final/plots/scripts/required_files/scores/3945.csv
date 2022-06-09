@@ -1,0 +1,47 @@
+score,models
+0.8484461619066576,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.66 |
+|  1 | None            | LGBMLearner |     0.28 |
+|  2 | None            | ETLearner   |     0.06 |"
+0.783455622438964,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.82 |
+|  1 | None            | RFLearner   |     0.14 |
+|  2 | None            | ETLearner   |     0.04 |"
+0.7997821904049383,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.9  |
+|  1 | None            | RFLearner   |     0.06 |
+|  2 | None            | ETLearner   |     0.04 |"
+0.7926210135925084,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.9  |
+|  1 | None            | RFLearner   |     0.06 |
+|  2 | None            | ETLearner   |     0.04 |"
+0.8419198817605055,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.86 |
+|  1 | None            | ETLearner   |     0.14 |"
+0.8126791724150554,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.88 |
+|  1 | None            | ETLearner   |     0.12 |"
+0.827241757210939,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.78 |
+|  1 | None            | ETLearner   |     0.22 |"
+0.8283193656066752,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.86 |
+|  1 | None            | ETLearner   |     0.14 |"
+0.8028937560486776,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.8  |
+|  1 | None            | ETLearner   |     0.18 |
+|  2 | None            | RFLearner   |     0.02 |"
+0.8109403563200245,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.68 |
+|  1 | None            | ETLearner   |     0.2  |
+|  2 | None            | RFLearner   |     0.12 |"

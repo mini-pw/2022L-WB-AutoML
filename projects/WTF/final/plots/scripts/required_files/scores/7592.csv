@@ -1,0 +1,34 @@
+score,models
+0.9281815808641061,"|    | Preprocessing                                     | Estimator                                                    |   Weight |
+|---:|:--------------------------------------------------|:-------------------------------------------------------------|---------:|
+|  0 | SimpleImputer,OneHotEncoder,MinMaxScaler,Nystroem | no embedding,ResNetBackbone,FullyConnectedHead,nn.Sequential |     0.84 |
+|  1 | None                                              | CBLearner                                                    |     0.16 |"
+0.9259185765022315,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.98 |
+|  1 | None            | KNNLearner  |     0.02 |"
+0.9287951629016326,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9248167402716133,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9252292705000222,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9216661466530502,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9256270385589138,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9289753122096511,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9357750179318348,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |        1 |"
+0.9312468698442377,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.98 |
+|  1 | None            | KNNLearner  |     0.02 |"

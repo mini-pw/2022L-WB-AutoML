@@ -1,0 +1,63 @@
+score,models
+0.792857142857143,"|    | Preprocessing                                                     | Estimator                                                       |   Weight |
+|---:|:------------------------------------------------------------------|:----------------------------------------------------------------|---------:|
+|  0 | SimpleImputer,OneHotEncoder,MinMaxScaler,Nystroem                 | embedding,MLPBackbone,FullyConnectedHead,nn.Sequential          |     0.22 |
+|  1 | SimpleImputer,OneHotEncoder,MinMaxScaler,KitchenSink              | embedding,ShapedResNetBackbone,FullyConnectedHead,nn.Sequential |     0.16 |
+|  2 | SimpleImputer,OneHotEncoder,NoScaler,TruncSVD                     | embedding,ShapedResNetBackbone,FullyConnectedHead,nn.Sequential |     0.12 |
+|  3 | SimpleImputer,OneHotEncoder,Normalizer,PowerTransformer           | no embedding,ShapedMLPBackbone,FullyConnectedHead,nn.Sequential |     0.12 |
+|  4 | SimpleImputer,NoEncoder,NoScaler,NoFeaturePreprocessing           | no embedding,ShapedMLPBackbone,FullyConnectedHead,nn.Sequential |     0.12 |
+|  5 | SimpleImputer,OneHotEncoder,StandardScaler,NoFeaturePreprocessing | embedding,ResNetBackbone,FullyConnectedHead,nn.Sequential       |     0.1  |
+|  6 | SimpleImputer,NoEncoder,NoScaler,NoFeaturePreprocessing           | no embedding,ShapedMLPBackbone,FullyConnectedHead,nn.Sequential |     0.04 |
+|  7 | SimpleImputer,OneHotEncoder,MinMaxScaler,KitchenSink              | embedding,ResNetBackbone,FullyConnectedHead,nn.Sequential       |     0.02 |
+|  8 | SimpleImputer,OneHotEncoder,Normalizer,NoFeaturePreprocessing     | embedding,ResNetBackbone,FullyConnectedHead,nn.Sequential       |     0.02 |
+|  9 | SimpleImputer,OneHotEncoder,Normalizer,PowerTransformer           | embedding,ShapedResNetBackbone,FullyConnectedHead,nn.Sequential |     0.02 |
+| 10 | None                                                              | CBLearner                                                       |     0.02 |
+| 11 | SimpleImputer,OneHotEncoder,NoScaler,Nystroem                     | no embedding,ResNetBackbone,FullyConnectedHead,nn.Sequential    |     0.02 |
+| 12 | None                                                              | SVMLearner                                                      |     0.02 |"
+0.7761904761904761,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | ETLearner   |     0.44 |
+|  1 | None            | SVMLearner  |     0.42 |
+|  2 | None            | CBLearner   |     0.1  |
+|  3 | None            | RFLearner   |     0.04 |"
+0.7276190476190475,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.56 |
+|  1 | None            | CBLearner   |     0.3  |
+|  2 | None            | ETLearner   |     0.14 |"
+0.7538095238095238,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.66 |
+|  1 | None            | CBLearner   |     0.18 |
+|  2 | None            | ETLearner   |     0.16 |"
+0.7566666666666666,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.74 |
+|  1 | None            | CBLearner   |     0.16 |
+|  2 | None            | ETLearner   |     0.1  |"
+0.799047619047619,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | CBLearner   |     0.36 |
+|  1 | None            | ETLearner   |     0.36 |
+|  2 | None            | RFLearner   |     0.28 |"
+0.8052380952380952,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.74 |
+|  1 | None            | ETLearner   |     0.18 |
+|  2 | None            | RFLearner   |     0.08 |"
+0.8104761904761905,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.84 |
+|  1 | None            | RFLearner   |     0.08 |
+|  2 | None            | ETLearner   |     0.06 |
+|  3 | None            | CBLearner   |     0.02 |"
+0.7180952380952382,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.96 |
+|  1 | None            | CBLearner   |     0.02 |
+|  2 | None            | RFLearner   |     0.02 |"
+0.7666666666666665,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | SVMLearner  |     0.56 |
+|  1 | None            | RFLearner   |     0.24 |
+|  2 | None            | CBLearner   |     0.2  |"

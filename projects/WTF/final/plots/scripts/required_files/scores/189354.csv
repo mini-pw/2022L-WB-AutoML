@@ -1,0 +1,31 @@
+score,models
+0.6718463329616711,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6728974587439536,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6740341784799848,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.677916123400639,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6714480501053876,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6704864590784874,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6765923278109587,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6698110817898602,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.670779815219569,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
+0.6754960729302344,"|    | Preprocessing   | Estimator   |   Weight |
+|---:|:----------------|:------------|---------:|
+|  0 | None            | KNNLearner  |        1 |"
