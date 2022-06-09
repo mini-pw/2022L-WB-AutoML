@@ -18,7 +18,7 @@ In the code directory there are four files:
 
 * `exec.py` - majority of functions used in model search and training
 * `wyniki.ipynb` - loads and presents results 
-* `GenerateModelArchitecture.ipynb` - generates model architecture
+* `GenerateModelArchitecture.ipynb` - generates model architecture diagram
 * `customised_model.ipynb` - AutoModel based on AutoKeras API
 
 
@@ -28,6 +28,8 @@ In the results directory there are four directories which names describe the set
 To run the benchmark one simply needs to execute `exec.py` file. We used %run command in `wyniki.ipynb` file.
 
 To view the results in `wyniki.ipynb` you should add the `results` folder to the path of each `results.json`, and execute the file.
+
+To run model architecture visualizer, use `GenerateModelArchitecture.ipnyb` and change last few cells to your needs.
 
 
 
