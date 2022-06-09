@@ -1,0 +1,70 @@
+task,framework,auc
+amazon_employee_access,autogluon,0.8935455044778241
+amazon_employee_access,autosklearn,0.8559490000000001
+amazon_employee_access,autoweka,0.8090322000000001
+amazon_employee_access,h2oautoml,0.8792492
+amazon_employee_access,our framework,0.8527614771546077
+bank-marketing,autogluon,0.7679741867295106
+bank-marketing,autosklearn,0.9373317
+bank-marketing,autoweka,0.8267063
+bank-marketing,h2oautoml,0.9370696
+bank-marketing,our framework,0.9280644444595264
+blood-transfusion-service-center,autogluon,0.9080065359477124
+blood-transfusion-service-center,our framework,0.7216807450725579
+christine,autogluon,0.8252860825041214
+christine,autosklearn,0.8297473
+christine,autoweka,0.8019883999999999
+christine,h2oautoml,0.8259985000000001
+christine,our framework,0.8067882154836308
+credit-g,autogluon,0.8111904761904762
+credit-g,autosklearn,0.7826191
+credit-g,autoweka,0.7525478
+credit-g,h2oautoml,0.7888094
+credit-g,our framework,0.77005291005291
+guillermo,autogluon,0.7872102980185514
+guillermo,our framework,0.8767543138400122
+higgs,autogluon,0.8128274520503295
+higgs,autosklearn,0.7933228
+higgs,autoweka,0.6769839
+higgs,h2oautoml,0.8135037
+higgs,our framework,0.7925315025061952
+jasmine,autogluon,0.8864605348107443
+jasmine,autosklearn,0.8839493
+jasmine,autoweka,0.8605555
+jasmine,h2oautoml,0.8878161999999999
+jasmine,our framework,0.8802415497448981
+kc1,autogluon,0.8005789244644994
+kc1,autosklearn,0.8402945555555555
+kc1,autoweka,0.8141353
+kc1,h2oautoml,0.8363875999999999
+kc1,our framework,0.7744611863436963
+kr-vs-kp,autogluon,0.9987399298410402
+kr-vs-kp,autosklearn,0.9998352
+kr-vs-kp,autoweka,0.9759936
+kr-vs-kp,h2oautoml,0.9998744
+kr-vs-kp,our framework,0.99993027046344
+miniboone,autogluon,0.9870158856195724
+miniboone,autosklearn,0.9854684
+miniboone,autoweka,0.9612335
+miniboone,h2oautoml,0.9865571
+miniboone,our framework,0.9852351378565978
+nomao,autogluon,0.9896957239278056
+nomao,autosklearn,0.9959487
+nomao,autoweka,0.9839335
+nomao,h2oautoml,0.9959566
+nomao,our framework,0.9938438313231924
+phoneme,autogluon,0.966741132217626
+phoneme,autosklearn,0.9626033
+phoneme,autoweka,0.9569611
+phoneme,h2oautoml,0.9676601
+phoneme,our framework,0.9557347808233242
+riccardo,autogluon,0.7460460666666666
+riccardo,autosklearn,0.999756
+riccardo,autoweka,
+riccardo,h2oautoml,0.9998066
+riccardo,our framework,0.9995002962962962
+sylvine,autogluon,0.9887771784563472
+sylvine,autosklearn,0.9903981
+sylvine,autoweka,0.9749485
+sylvine,h2oautoml,0.9899719
+sylvine,our framework,0.9800883047749176

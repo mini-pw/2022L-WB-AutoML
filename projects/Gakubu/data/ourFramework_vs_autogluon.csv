@@ -1,0 +1,31 @@
+auc,framework,task
+0.8935455044778241,autogluon,amazon_employee_access
+0.7679741867295106,autogluon,bank-marketing
+0.9080065359477125,autogluon,blood-transfusion-service-center
+0.8252860825041214,autogluon,christine
+0.8111904761904762,autogluon,credit-g
+0.7872102980185514,autogluon,guillermo
+0.8128274520503295,autogluon,higgs
+0.8864605348107443,autogluon,jasmine
+0.8005789244644994,autogluon,kc1
+0.9987399298410402,autogluon,kr-vs-kp
+0.9870158856195725,autogluon,miniboone
+0.9896957239278057,autogluon,nomao
+0.966741132217626,autogluon,phoneme
+0.7460460666666666,autogluon,riccardo
+0.9887771784563473,autogluon,sylvine
+0.7216807450725579,our framework,blood-transfusion-service-center
+0.7925315025061952,our framework,higgs
+0.9280644444595264,our framework,bank-marketing
+0.9852351378565978,our framework,miniboone
+0.8767543138400122,our framework,guillermo
+0.9995002962962962,our framework,riccardo
+0.8067882154836308,our framework,christine
+0.8802415497448981,our framework,jasmine
+0.9800883047749176,our framework,sylvine
+0.77005291005291,our framework,credit-g
+0.8527614771546077,our framework,amazon_employee_access
+0.7744611863436963,our framework,kc1
+0.99993027046344,our framework,kr-vs-kp
+0.9557347808233242,our framework,phoneme
+0.9938438313231924,our framework,nomao
