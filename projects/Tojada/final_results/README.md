@@ -1,4 +1,4 @@
-## AutoKeras - AutoML framework 
+## AutoML framework benchmark - AutoKeras 
 [AutoKeras website](https://autokeras.com/), [AutoKeras article](https://arxiv.org/pdf/1806.10282.pdf)
 
 
