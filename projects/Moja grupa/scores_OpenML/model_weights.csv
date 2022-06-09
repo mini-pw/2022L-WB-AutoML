@@ -1,0 +1,7 @@
+,model,mean_weights
+0,RandomForest,0.04596491228070176
+1,ExtraTreesClassifier,0.061538461538461535
+2,GradientBoostingClassifier,0.05375
+3,SGD,0.051428571428571435
+4,MLPClassifier,0.05419354838709678
+5,PassiveAggressive,0.03571428571428571

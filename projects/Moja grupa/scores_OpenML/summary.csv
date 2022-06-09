@@ -1,0 +1,631 @@
+,dataset,fold,roc_auc,accuracy,models
+0,MiniBooNE,1,0.5,0.7193818713000691,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='c7192698-2780-4b29-99b1-d44bbc49ac5d')"
+1,MiniBooNE,2,0.5,0.7193818713000691,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e180634f-c2ce-4768-b8fd-4d94d60ef1fb')"
+2,MiniBooNE,3,0.5,0.7193818713000691,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e7999e73-332e-4d5b-829b-091113a1d89f')"
+3,MiniBooNE,4,0.5,0.7193818713000691,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f954ca51-61df-4b7f-996f-8ddf9ee7db7b')"
+4,MiniBooNE,5,0.5,0.7194371828386898,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='0c83e09b-3221-40a5-b709-e74cd4252045')"
+5,MiniBooNE,6,0.5,0.7193602952483469,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e08655dd-3639-4b27-89bf-cb3f5ed654ce')"
+6,MiniBooNE,7,0.5,0.7193602952483469,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='dc99c607-f2d4-4d14-bc10-c45244342901')"
+7,MiniBooNE,8,0.5,0.7193602952483469,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='bd95f4e8-c68d-4e38-bf77-6efdd23b4a59')"
+8,MiniBooNE,9,0.5,0.7193602952483469,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e382c85f-929f-4ec5-856a-31213cb39111')"
+9,MiniBooNE,10,0.5,0.7193602952483469,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='0a754fe2-261e-4d51-bebd-0feba5438874')"
+10,sylvine,1,0.9755593385214008,0.9259259259259259,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='1300850f-23ac-44d4-ab7d-9940b001ead5')"
+11,sylvine,2,0.9823990758754864,0.9473684210526315,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='20080eaf-cada-4d06-a591-2be101f01196')"
+12,sylvine,3,0.9862749270428015,0.9395711500974658,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d894490a-ec41-4396-aa6c-49eee72b6a4d')"
+13,sylvine,4,0.986882903696498,0.935672514619883,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='21b163ba-392e-4498-8c2e-99969a9ef649')"
+14,sylvine,5,0.9853973388671875,0.94921875,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ed81986f-1a3e-4f13-90ba-a13ec305248b')"
+15,sylvine,6,0.98004150390625,0.935546875,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='27d97182-ec66-4a44-a029-3a6f6169d523')"
+16,sylvine,7,0.985321044921875,0.943359375,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d69351c9-c52c-4b66-b364-dd9921faf45e')"
+17,sylvine,8,0.9827423095703125,0.931640625,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a91d2e54-27cf-482c-8a9c-2c15e221f2a6')"
+18,sylvine,9,0.9859771728515625,0.9375,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='2cf1f87b-a440-41b7-9f01-6ed64d2982b2')"
+19,sylvine,10,0.9867706298828125,0.9453125,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='0ead3895-72f8-4fff-9fdd-8d82a0363ecb')"
+20,Amazon_employee_access,1,0.8783342928420649,0.942325297528227,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='019b8cb4-0bcf-482d-9150-82685c973da3')"
+21,Amazon_employee_access,2,0.8640675973901362,0.942325297528227,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='102afbab-d257-41a2-ac49-0640c5d72240')"
+22,Amazon_employee_access,3,0.8787598247318977,0.9420201403722918,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='beac437a-43f7-4567-9809-39660ed72fb4')"
+23,Amazon_employee_access,4,0.8740243465807374,0.9432407689960329,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='c55214da-2b43-4178-8938-a5310d949674')"
+24,Amazon_employee_access,5,0.8658517040901573,0.9420201403722918,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='0ae503f8-d753-4307-aa55-58ca31a45a37')"
+25,Amazon_employee_access,6,0.8667442415562717,0.9420201403722918,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ada714e6-4b5b-48be-bc74-3d19200164ca')"
+26,Amazon_employee_access,7,0.8655951102245408,0.9420201403722918,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ac5f080d-e13e-4b7a-adeb-d41d74ecb4ab')"
+27,Amazon_employee_access,8,0.8539801885666547,0.9420201403722918,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a6a88225-25a8-4c27-9b20-7913af9bf9c0')"
+28,Amazon_employee_access,9,0.8924829079501475,0.9420201403722918,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='8b5d4f33-f61f-4686-90c4-7fc0527d0ff4')"
+29,Amazon_employee_access,10,0.882389539338033,0.9447496947496947,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='70d604bb-cf28-4fac-9737-0ffbd0fbed2f')"
+30,phoneme,1,0.9548552800553196,0.8299445471349353,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='00fe81b0-007b-4a3f-a2ee-e48c7f998b86')"
+31,phoneme,2,0.9635648193881918,0.9057301293900185,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='eff3555a-e834-42a7-bcee-baa67e637ddc')"
+32,phoneme,3,0.9499983535842472,0.7966728280961183,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='50a1f3ec-5e6d-4db6-bcaf-4e4d5487664d')"
+33,phoneme,4,0.9559913069248246,0.8817005545286506,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='00300cbd-ee87-40ea-b966-d8facbab132c')"
+34,phoneme,5,0.9468321293657631,0.8851851851851852,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='fb07ad29-dc3f-46f3-874b-d78a8e579c27')"
+35,phoneme,6,0.9627543243422361,0.9185185185185185,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a37a58f5-c9ec-4878-9bbb-9cb293729632')"
+36,phoneme,7,0.9769037046855326,0.8222222222222222,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='50e5e0c3-f298-4a80-853c-f856f54f0990')"
+37,phoneme,8,0.9606004374047319,0.8962962962962963,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='75c38987-b3fb-4b27-b977-e3a1b66bc518')"
+38,phoneme,9,0.9517819706498951,0.8777777777777778,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='8161a787-2276-43c4-8288-62b34f42a8b6')"
+39,phoneme,10,0.9603823107017284,0.9074074074074074,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='6eeef76e-6fb1-490a-b976-2a631f4d711e')"
+40,guillermo,1,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='61604158-3941-44f0-967b-72d75102d770')"
+41,guillermo,2,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='947bc62f-8feb-4fa8-9773-7e44c2825add')"
+42,guillermo,3,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='4b62e722-350a-46db-a416-0b3c93a26176')"
+43,guillermo,4,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='805f75d4-2b09-4f83-8c3d-ef9ecb8b6114')"
+44,guillermo,5,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='fadcf209-97cb-4bb9-ba42-18755f6bdd6c')"
+45,guillermo,6,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='19e1d076-b639-4db7-bccf-2800871912cb')"
+46,guillermo,7,0.5,0.6,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='972170c4-a8e4-4930-bd3b-89354a465382')"
+47,guillermo,8,0.5,0.5995,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b91b9dda-4d77-4c6e-b0c3-a05e6c8b3c9b')"
+48,guillermo,9,0.5,0.5995,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='24d0b009-57cc-4ea1-b34e-3477fea4c809')"
+49,guillermo,10,0.5,0.5995,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ed15c900-dc70-44e4-a0ab-3d969c3cf224')"
+50,Australian,1,0.9397283531409167,0.9130434782608695,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='589e948a-5398-4708-bd27-e3f55aba9236')"
+51,Australian,2,0.9252971137521222,0.8695652173913043,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='cbca7fc7-9d4a-4132-b92f-0003ed2814db')"
+52,Australian,3,0.9151103565365025,0.8115942028985508,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7bfb1675-7285-4f84-bbf2-18da84fce18e')"
+53,Australian,4,0.9303904923599322,0.8260869565217391,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f7650e88-efab-4cb5-888f-46bd9831af7a')"
+54,Australian,5,0.967741935483871,0.8985507246376812,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='86cbf7b3-1ab5-4ff3-9773-e4edb3128c09')"
+55,Australian,6,0.966044142614601,0.8985507246376812,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d095ef81-9024-4cf6-9e50-02bc33581677')"
+56,Australian,7,0.9006791171477079,0.8405797101449275,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='66be4abc-ee18-44d9-b87c-752ee302a50b')"
+57,Australian,8,0.9222222222222222,0.7536231884057971,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='9ad27cc8-0d7e-476e-b468-200ea2b268ea')"
+58,Australian,9,0.9547008547008546,0.8985507246376812,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='6fc4594a-b70f-44d2-b263-d344e29f3256')"
+59,Australian,10,0.9384615384615385,0.8405797101449275,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f36bfc72-34cb-4073-80c5-9edac2dd07af')"
+60,kc1,1,0.8447101955307262,0.8720379146919431,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+61,kc1,2,0.8327513966480447,0.8862559241706162,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+62,kc1,3,0.8523917597765363,0.8436018957345972,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+63,kc1,4,0.8354613551242766,0.8672985781990521,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+64,kc1,5,0.7837929860401771,0.8530805687203792,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+65,kc1,6,0.8224378617637044,0.8578199052132701,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+66,kc1,7,0.8576779026217229,0.8957345971563981,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+67,kc1,8,0.8701055498808309,0.8625592417061612,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+68,kc1,9,0.888321416411304,0.8720379146919431,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+69,kc1,10,0.7845856741573034,0.861904761904762,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+70,numerai28.6,1,0.522879655459306,0.5129775747508306,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='cd479462-f11d-4cde-8f24-a4d7c620419e')"
+71,numerai28.6,2,0.5372686620998984,0.5255398671096345,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d8fb5c33-c8af-421f-b2f5-22b1733163b4')"
+72,numerai28.6,3,0.525959154781635,0.5197259136212624,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='91ea6de0-250c-4e96-b8c0-d0cfeb55cce2')"
+73,numerai28.6,4,0.5260239634111952,0.5208679401993356,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f22f6054-38b7-4bb0-8d44-bc426f08b66c')"
+74,numerai28.6,5,0.5346988765986775,0.5259551495016611,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='92dc8b7c-5790-44f8-90c7-5655d541f29b')"
+75,numerai28.6,6,0.528804654630803,0.5213870431893688,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='dd7cdc6f-598c-4475-b07d-a6e4781c81b2')"
+76,numerai28.6,7,0.5343991528567799,0.5242940199335548,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b833b9d6-7ff3-4f95-8644-8738d30eb96e')"
+77,numerai28.6,8,0.5282191347500336,0.5198297342192691,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a43a294b-8b94-45f4-9135-432deeb9c5cb')"
+78,numerai28.6,9,0.53394023186915,0.5128737541528239,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='3631998d-001d-4629-9fac-13bb654bba07')"
+79,numerai28.6,10,0.5295491992792487,0.5223214285714286,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a0ee9269-99f8-4fa0-8732-1cc1d5f3c7ae')"
+80,higgs,1,0.8004504101745564,0.7227944926058134,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='459c30a1-603d-4473-b44c-7e5927592398')"
+81,higgs,2,0.7945616254471771,0.7167771545130036,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='09c74a13-8f24-4142-95c6-5afe1fd7b1de')"
+82,higgs,3,0.8014728932819833,0.7259561448240693,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='29bc7409-73de-44b1-a7cb-6bf479536765')"
+83,higgs,4,0.8029691816930045,0.7192248852626211,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='18fb2a5e-075f-447c-9709-17f1fa60cbe7')"
+84,higgs,5,0.8059041253680838,0.726874043855176,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='90aa50d6-2794-44a4-8963-4f5ac804f9a0')"
+85,higgs,6,0.8015300745630729,0.7228964813870474,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='2bba2235-e2a2-410b-b7a7-dad561366275')"
+86,higgs,7,0.8031584049742221,0.7220805711371749,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='4cd7ec28-c5f0-43db-8ee9-079c190fee53')"
+87,higgs,8,0.7917585475867123,0.7150433452320245,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7c0c9a59-dff1-4698-b94c-2c3660b72b97')"
+88,higgs,9,0.7898296639823649,0.7156552779194288,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d1f8901f-87e4-471a-a758-9f21cb030f29')"
+89,higgs,10,0.8101040640385349,0.7287098419173891,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='9ead5bb3-ae06-4233-ab50-2540e1b6a001')"
+90,airlines,1,0.5,0.5545523647082816,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='59a64690-3de4-46ec-ab24-93a9d48d2986')"
+91,airlines,2,0.5,0.5545523647082816,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='c9e6682a-17cb-4c53-8162-bc86b591e350')"
+92,airlines,3,0.5,0.5545523647082816,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='fe39b286-2c97-4b87-839f-5564b0f27980')"
+93,airlines,4,0.5,0.554562646000964,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='3251eb7c-0fbf-461c-a862-f4c53af0fa92')"
+94,airlines,5,0.5,0.554562646000964,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='c6ff3a5e-1fc3-4a60-84f9-912ac5c9864f')"
+95,airlines,6,0.5,0.554562646000964,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='51f9e8d3-f6e2-4f52-8b52-72afbbb8ff68')"
+96,airlines,7,0.5,0.554562646000964,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='fab97666-7250-44e5-89db-a1fd8b64d2ac')"
+97,airlines,8,0.5,0.554562646000964,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='1d537945-452d-44e3-99fe-a7ab428d7b48')"
+98,airlines,9,0.5,0.554562646000964,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a6011635-422a-4db0-a290-a79b02bf981b')"
+99,airlines,10,0.5,0.5545441061960028,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='8cecc249-6ddd-4806-8079-027b4ad0104a')"
+100,KDDCup09_appetency,1,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='aff22af4-17bf-4e17-bded-15a65f809b68')"
+101,KDDCup09_appetency,2,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b5999c58-48bc-471d-a7b2-4dbe1ed03ffa')"
+102,KDDCup09_appetency,3,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b59a52c7-6329-4c96-9059-ac9bd08ddd03')"
+103,KDDCup09_appetency,4,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='717a0ce8-b5e0-4095-8599-8633de5c9fc2')"
+104,KDDCup09_appetency,5,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='8eb8a57d-be5f-4d71-b19b-17f9b2ec5772')"
+105,KDDCup09_appetency,6,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='5b351318-0deb-4730-a9c3-5f9e55599bdb')"
+106,KDDCup09_appetency,7,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f11317ff-8250-44d7-88e0-59357b232431')"
+107,KDDCup09_appetency,8,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='719ba450-c45f-4e3d-81cc-c39c874c55f6')"
+108,KDDCup09_appetency,9,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='8c6a42ef-4aab-4e9b-ae66-b684eebe6679')"
+109,KDDCup09_appetency,10,0.5,0.9822,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='2ce44de3-6279-4293-a13d-ce92a8ac3bc5')"
+110,adult,1,0.9226570693765476,0.8489252814738997,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='5bd625a7-1275-4c7d-ba16-9bee7fc5bbb2')"
+111,adult,2,0.9205834064609517,0.8618219037871033,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='3a3da242-c1c1-4846-9a49-baa387f21e41')"
+112,adult,3,0.9224046883524779,0.8675266175266175,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='4d316095-a898-49c5-8de9-60b4815bce44')"
+113,adult,4,0.9200557658846602,0.8638411138411138,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='1a51121d-6fd0-42dc-b635-21cb5badc900')"
+114,adult,5,0.9200652122624122,0.7608517608517609,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='1d896ab0-05b0-4f3c-b9d5-3811dbe8f2bb')"
+115,adult,6,0.9157543401948266,0.80999180999181,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e24d940a-9bfa-437f-b36d-61f46eabc141')"
+116,adult,7,0.9203897914611079,0.8589271089271089,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='82c2a7af-de64-4797-a0b7-47978f83eb8c')"
+117,adult,8,0.9247238267168796,0.8224815724815725,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7f8dde51-db7f-4b14-8912-2d8c98faa814')"
+118,adult,9,0.9325173532957158,0.872031122031122,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e9bf53c5-07a6-4155-807a-aced64734221')"
+119,adult,10,0.9262367785098905,0.8595413595413596,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='4b6bdffe-a8bf-437b-9ac0-d059759e3679')"
+120,credit-g,1,0.8547619047619048,0.81,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+121,credit-g,2,0.7533333333333333,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+122,credit-g,3,0.7666666666666667,0.79,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+123,credit-g,4,0.7690476190476191,0.8,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+124,credit-g,5,0.7757142857142857,0.71,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+125,credit-g,6,0.8080952380952381,0.78,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+126,credit-g,7,0.8133333333333334,0.77,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+127,credit-g,8,0.8514285714285714,0.81,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+128,credit-g,9,0.7604761904761905,0.74,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+129,credit-g,10,0.7790476190476191,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+130,albert,1,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='60ff90ef-6ff5-4f4b-a85d-3c0d5ae6ff15')"
+131,albert,2,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ceb1a407-03df-4cfb-9757-922b8086b755')"
+132,albert,3,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='eced89fd-e8d6-4d35-9f91-76e034af4da0')"
+133,albert,4,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='4bb4c5ee-9f5f-400b-9869-195373051c68')"
+134,albert,5,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='8c824d82-9e0d-45da-b826-cdfd286044ea')"
+135,albert,6,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='6793d765-166c-4ba8-a723-bb58ffb026e9')"
+136,albert,7,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ae265e27-c3e0-4eb5-ae50-f3f44d525318')"
+137,albert,8,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b23b4afd-0cef-4617-bea3-f3a3d98c3530')"
+138,albert,9,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='73cf5789-8ed3-4ee5-b6f9-1ef5992ce923')"
+139,albert,10,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='211453da-3bb8-45a6-8910-2ee89acd20bc')"
+140,bank-marketing,1,0.934117692729763,0.8998230871295887,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='58167039-5f19-4453-a79b-73351c85302f')"
+141,bank-marketing,2,0.9302059854745804,0.8832116788321168,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7fb2f892-8c74-40d8-bb5a-3fdbaec3b92d')"
+142,bank-marketing,3,0.9403641877327433,0.913735899137359,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='382f0e0e-eae7-4814-b637-a4c9eeb4cd50')"
+143,bank-marketing,4,0.9346727481427883,0.8829904888299049,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a65b0df9-1f6b-40ca-b643-b6e7fae2212f')"
+144,bank-marketing,5,0.9369405161930666,0.8829904888299049,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d463d8b9-460c-46d4-b200-1619ee71021f')"
+145,bank-marketing,6,0.9240655223490459,0.8829904888299049,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='76a52c45-0154-426f-86fa-1ab7e093c2c9')"
+146,bank-marketing,7,0.919999734819355,0.8829904888299049,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='581e4768-fe59-4af8-887a-e8f83749f3c6')"
+147,bank-marketing,8,0.9408348833773407,0.8829904888299049,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='004039be-4bfc-4536-b959-692adfa60b73')"
+148,bank-marketing,9,0.9313328926283568,0.8829904888299049,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='19c1e0dc-cc69-4524-89cd-7f39704b13f0')"
+149,bank-marketing,10,0.9420225138367473,0.8991373589913736,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ba13c95a-55f7-4cec-90d8-7928929d2d82')"
+150,APSFailure,1,0.5,0.9819736842105263,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e7c998b3-11e3-4687-9c8d-0cadeec1924e')"
+151,APSFailure,2,0.5,0.9819736842105263,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='061aa2bb-04ce-4cc7-89c0-80aecc0e8332')"
+152,APSFailure,3,0.5,0.9819736842105263,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='12abf0aa-683a-4bac-81af-c336d811f711')"
+153,APSFailure,4,0.5,0.9819736842105263,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ccab3123-9336-4344-9b22-0721520a7ac4')"
+154,APSFailure,5,0.5,0.9819736842105263,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='96ab2c58-3c94-49c9-b61d-7eb3c488f5f6')"
+155,APSFailure,6,0.5,0.9818421052631578,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='80539f10-4960-4de0-a6c5-df6281a9f461')"
+156,APSFailure,7,0.5,0.9818421052631578,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b68d58ab-a450-436a-bf38-0a37367c9f72')"
+157,APSFailure,8,0.5,0.9818421052631578,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='b390d73d-1da4-4c45-aad3-ab376efde94f')"
+158,APSFailure,9,0.5,0.9818421052631578,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='90e7470c-5b37-4335-9a5f-88f118aefb23')"
+159,APSFailure,10,0.5,0.9818421052631578,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='54d71b0f-6107-4c65-aaa1-f7678ddb21fb')"
+160,kr-vs-kp,1,0.9998825877656452,0.99375,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+161,kr-vs-kp,2,1.0,0.990625,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+162,kr-vs-kp,3,0.9997260381198387,0.996875,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+163,kr-vs-kp,4,1.0,1.0,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+164,kr-vs-kp,5,1.0,0.996875,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+165,kr-vs-kp,6,1.0,1.0,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+166,kr-vs-kp,7,0.9999606268210095,0.9937304075235109,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+167,kr-vs-kp,8,0.9993302867948314,0.9905956112852664,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+168,kr-vs-kp,9,1.0,1.0,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+169,kr-vs-kp,10,1.0,1.0,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300)"
+170,blood-transfusion-service-center,1,0.7587719298245614,0.76,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='9210b9e8-96f2-459e-ad4f-bc07ddc73e4d')"
+171,blood-transfusion-service-center,2,0.8260233918128654,0.76,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='85b851cd-b479-4c24-bcf9-30a46e8771e1')"
+172,blood-transfusion-service-center,3,0.6890838206627681,0.7333333333333333,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='2295c0d3-e30f-49b7-8243-e4e8b60fd917')"
+173,blood-transfusion-service-center,4,0.7041910331384016,0.7466666666666667,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='4fdd2913-4a4e-4b45-9560-a0ca77e98972')"
+174,blood-transfusion-service-center,5,0.7855750487329435,0.8,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='25c1b5ce-cee5-4920-b472-218051ecdb9b')"
+175,blood-transfusion-service-center,6,0.7236842105263158,0.76,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='52c76d9c-f9c5-489f-8550-7341298f5998')"
+176,blood-transfusion-service-center,7,0.7616959064327485,0.7866666666666666,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='5f2b6fb8-6f4d-4906-8adb-11e422839fa1')"
+177,blood-transfusion-service-center,8,0.7763157894736842,0.8133333333333334,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='2f1534d9-7d5b-4e13-8cce-ee3a4e11e684')"
+178,blood-transfusion-service-center,9,0.71671826625387,0.22972972972972974,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='32a3677e-ed02-4965-be56-823ad80a7c30')"
+179,blood-transfusion-service-center,10,0.7569659442724458,0.7972972972972973,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='85b7c00c-38f7-436e-80b6-013aeb2beb4e')"
+180,jasmine,1,0.8722595078299775,0.822742474916388,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='076d6258-9fd3-4ed1-a805-2e4d76a45a31')"
+181,jasmine,2,0.8943176733780761,0.8127090301003345,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7c2ba682-5102-42af-adf7-625e1cddf25d')"
+182,jasmine,3,0.9027740492170022,0.842809364548495,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='db422b1b-4f4a-459f-95d7-e0fb5e06439c')"
+183,jasmine,4,0.8671140939597315,0.8193979933110368,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='1e06b9ba-7ec3-416e-af91-fb4833711693')"
+184,jasmine,5,0.8799603621458493,0.7885906040268457,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='71faa896-dc1d-4ca7-b38f-e580e9ba195a')"
+185,jasmine,6,0.8672582316111888,0.802013422818792,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7c7e1f7a-52c1-4ac6-bc21-32b420841480')"
+186,jasmine,7,0.8709067159136976,0.8322147651006712,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='97816c71-39cd-453e-8564-37e35c7e7928')"
+187,jasmine,8,0.8415837124453853,0.785234899328859,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='485d126f-4d28-4858-8f2f-69160f6808a7')"
+188,jasmine,9,0.8815819107247422,0.8355704697986577,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='0594d265-e3be-4b1e-a3df-d24a85e52ade')"
+189,jasmine,10,0.8796450610332868,0.8154362416107382,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='65f3b284-4ce0-4e06-bf29-160a38762088')"
+190,nomao,1,0.9928832905868644,0.8961415723817813,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='87469f5d-39b5-43c9-8287-fb9f6e903f37')"
+191,nomao,2,0.9932863793622452,0.8955613577023499,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='07c8f5e4-6f95-409d-b7ca-578408339b04')"
+192,nomao,3,0.9920047668727088,0.9599651871192341,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='da996e8a-6e53-442b-828f-532fb7206e15')"
+193,nomao,4,0.9946776794071924,0.9683782999709892,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='fe0ea7cc-9279-4a31-81c0-7681bf253bfe')"
+194,nomao,5,0.9939638855785606,0.9666376559326951,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f3709f1e-09b6-4f6b-a1b4-321f491abe3d')"
+195,nomao,6,0.9937959422242476,0.920777713290772,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='de6faeec-2cb6-476c-8d8b-cf7723e0106d')"
+196,nomao,7,0.9928316921268319,0.9605339524085896,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d0336266-97c3-4df3-b3fa-0f99f284c10b')"
+197,nomao,8,0.9951593489330507,0.9680789320951828,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='890910ec-4a8c-438d-aa87-82137053d664')"
+198,nomao,9,0.9930145529115729,0.9651770168311086,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='a85c0784-fe77-4a7c-8dbe-7497fbc2c3db')"
+199,nomao,10,0.9934252673152238,0.9616947185142194,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='51c2439c-d4d5-485c-8525-973a77f4f50a')"
+200,christine,1,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='eb29060c-23df-4c9d-a4a8-ee79f84594cc')"
+201,christine,2,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='cd934c32-ebfb-4803-9f91-e97e9614c754')"
+202,christine,3,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='51d0f0ed-4505-4b7b-8f8a-ff1d7208aab4')"
+203,christine,4,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='7904e3e4-471c-4958-9c66-641713f1d52f')"
+204,christine,5,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='38fd9a02-f4e1-44f0-8992-e4ddb9052520')"
+205,christine,6,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ec8f1c8c-a776-4d53-bc8e-8b6fcd57d2e1')"
+206,christine,7,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='48ae3557-e9dd-4101-bc2a-857fce00b337')"
+207,christine,8,0.5,0.5,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='82632ee3-02dc-466e-885f-4873904ec86f')"
+208,christine,9,0.5,0.5009242144177449,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d48c5fa1-6451-489c-aa76-ac100504c37d')"
+209,christine,10,0.5,0.49907578558225507,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='708b2190-e72b-4683-8bba-af7cac6f7e87')"
+210,riccardo,1,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='bbfc1e8d-7c73-4957-8ccf-f18d03c3c809')"
+211,riccardo,2,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d553601c-93c1-4ab3-8c8a-a767abc8a13b')"
+212,riccardo,3,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='0df777bc-0e29-435d-86cb-5bc2a6463238')"
+213,riccardo,4,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='d4e4e316-d705-4da6-bd19-1d55c5fa9f80')"
+214,riccardo,5,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='684d2c28-0bfc-45a8-a704-c66ae213d1b9')"
+215,riccardo,6,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='ceb05697-78c7-4a46-a570-c71b0ed5e058')"
+216,riccardo,7,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='c641cce5-7168-48dd-8963-eade151ac26a')"
+217,riccardo,8,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='e3cd7350-7a89-47b9-ae54-660d97f5c6c8')"
+218,riccardo,9,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='f6ba8a14-4935-4b52-8943-beea67b24815')"
+219,riccardo,10,0.5,0.75,"AutoSklearn2Classifier(memory_limit=None, metric=roc_auc, n_jobs=-1,
+                       per_run_time_limit=60, time_left_for_this_task=300,
+                       tmp_folder='3c3ae332-8ed9-475b-9d10-5d768a4ee45d')"

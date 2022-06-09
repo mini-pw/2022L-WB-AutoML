@@ -1,0 +1,7 @@
+,Type of model,Number of occurences
+0,GradientBoostingClassifier,96
+1,ExtraTreesClassifier,78
+2,RandomForest,57
+3,MLPClassifier,31
+4,SGD,14
+5,PassiveAggressive,14
