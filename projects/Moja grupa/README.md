@@ -4,6 +4,9 @@
 
 ## Files description:
 - ``automl_script`` : script for AutoSklearn 2.0
-- ``own_implementation`` : our own AutoML framework
 - ``diagrams`` : charts used in the article
+- ``moja_grupa_Artykul.pdf`` : our article
+- ``own_implementation`` : our own AutoML framework
+- ``Presentation.pdf`` : presentation of our work
 - ``scores_OpenML`` : results of AutoSklearn 2.0 and our own implementation
+
