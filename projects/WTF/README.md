@@ -58,7 +58,7 @@
     <td>7</td>
     <td>Wykresy - skrypty</td>
     <td><a href="final/plots/scripts">link</td>
-    <td>Wywołać komórki. Należy pobrać <a href="final/plots/scripts/required_files/plot_df.csv">pliki</a href>, które zawierają potrzebne dane.</td>
+    <td>Wywołać komórki. Należy pobrać <a href="final/plots/scripts/required_files">pliki</a href>, które zawierają potrzebne dane.</td>
   </tr>
   
 </tbody>
