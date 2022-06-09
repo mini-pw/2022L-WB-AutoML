@@ -1,5 +1,5 @@
 # Flaml  
-[link](https://microsoft.github.io/FLAML/)
+## [link](https://microsoft.github.io/FLAML/)
 
 ## files:
 * `team5` - package with preprocessing and OurFlaml
@@ -12,5 +12,5 @@
 * 
 
 ## how to run the script?
-* copy KM4/KM4.py and team5 to folder with script
+* copy `KM4/KM4.py` and `team5` to folder with script
 * 
