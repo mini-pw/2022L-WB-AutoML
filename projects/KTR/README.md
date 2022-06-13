@@ -9,7 +9,7 @@
 * `KM4/wyniki_ourml_test.csv` - OurML results
 * `WB_projekt(1).pdf` - final article
 * `KM4/KM4.py` - OurML
-* 
+* `testy.ipnyb1 - script for performing the evaluation and generating plots used in the article
 
 ## how to run the script?
 * copy `KM4/KM4.py` and `team5` to folder with script
